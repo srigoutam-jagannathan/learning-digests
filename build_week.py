@@ -14,6 +14,7 @@ Usage:
   python3 build_week.py --date 2026-11-16   # build the week containing this date
   python3 build_week.py --mock          # no model; placeholder text, to test layout
   python3 build_week.py --force         # rebuild even if this week already exists
+  python3 build_week.py --backfill --date 2026-10-19   # build a past week into archive/
 """
 
 import argparse
@@ -411,8 +412,10 @@ def page(title, nav, body):
             f'<body><main>{nav}{body}</main></body></html>')
 
 
-def nav_html(active=None):
-    links = ['<a class="home" href="index.html">This week</a>']
+def nav_html(active=None, root="../"):
+    week_cur = ' aria-current="page"' if active is None else ""
+    links = [f'<a class="home" href="{root}index.html">All weeks</a>',
+             f'<a href="index.html"{week_cur}>Week</a>']
     for i, d in enumerate(DAYS):
         cur = ' aria-current="page"' if i == active else ""
         links.append(f'<a href="{d.lower()}.html"{cur}>{d}</a>')
@@ -450,8 +453,9 @@ def mini_card(entry, track):
 </section>"""
 
 
-def render(monday, fin, vis):
-    CURRENT.mkdir(parents=True, exist_ok=True)
+def render(monday, fin, vis, out=CURRENT):
+    out.mkdir(parents=True, exist_ok=True)
+    root = "../" * len(out.relative_to(ROOT).parts)
     fin_label, fin_outline, fin_cards = fin
     vis_label, vis_outline, vis_sunday = vis
     rows = []
@@ -470,8 +474,8 @@ def render(monday, fin, vis):
                 kind = "Swipe file, 15 minute review" if i == 5 else "Swipe file, 10 minutes"
                 body += mini_card(vis_outline[i], f"Visual creation · {kind}")
                 vtitle = vis_outline[i]["title"]
-        (CURRENT / f"{d.lower()}.html").write_text(
-            page(f"{d} {date:%-d %b} - {ftitle or vtitle}", nav_html(i), body), encoding="utf-8")
+        (out / f"{d.lower()}.html").write_text(
+            page(f"{d} {date:%-d %b} - {ftitle or vtitle}", nav_html(i, root), body), encoding="utf-8")
         rows.append(f'<li><a href="{d.lower()}.html"><span class="d">{date:%a %-d %b}</span>'
                     f'<span class="t">{E(ftitle or vtitle)}</span>'
                     + (f'<span class="v">Visual: {E(vtitle)}</span>' if ftitle and vtitle else "")
@@ -482,14 +486,37 @@ def render(monday, fin, vis):
             + (f'<p class="narr"><b>Finance:</b> {E(fin_label)}</p>' if fin_label else "")
             + (f'<p class="narr"><b>Visual:</b> {E(vis_label)}</p>' if vis_label else "")
             + f'<ul class="week">{"".join(rows)}</ul>')
-    (CURRENT / "index.html").write_text(page(f"Week of {monday:%-d %b}", nav_html(), body),
+    (out / "index.html").write_text(page(f"Week of {monday:%-d %b}", nav_html(None, root), body),
                                         encoding="utf-8")
-    (CURRENT / "week.json").write_text(json.dumps({
+    (out / "week.json").write_text(json.dumps({
         "id": week_id(monday), "monday": monday.isoformat(), "model": MODEL,
         "built": dt.datetime.now().isoformat(timespec="seconds"),
         "finance": {"label": fin_label, "outline": fin_outline, "cards": fin_cards},
         "visual": {"label": vis_label, "outline": vis_outline, "sunday": vis_sunday},
     }, indent=1, ensure_ascii=False), encoding="utf-8")
+
+
+def write_home():
+    """Root index.html listing every built week, newest first."""
+    weeks = []
+    for meta in [CURRENT / "week.json", *ARCHIVE.glob("*/week.json")]:
+        if meta.exists():
+            w = json.loads(meta.read_text(encoding="utf-8"))
+            weeks.append((w["monday"], meta.parent, w))
+    rows = []
+    for monday, folder, w in sorted(weeks, key=lambda x: x[0], reverse=True):
+        mon = dt.date.fromisoformat(monday)
+        end = mon + dt.timedelta(days=6)
+        tag = " · this week" if folder == CURRENT else ""
+        fin, vis = w["finance"]["label"], w["visual"]["label"]
+        rows.append(f'<li><a href="{folder.relative_to(ROOT).as_posix()}/index.html">'
+                    f'<span class="d">{mon:%-d %b} to {end:%-d %b}{tag}</span>'
+                    f'<span class="t">{E(fin or vis)}</span>'
+                    + (f'<span class="v">Visual: {E(vis)}</span>' if fin and vis else "")
+                    + "</a></li>")
+    body = (f'<p class="date">{len(rows)} weeks</p><h1>Learning digests</h1>'
+            f'<ul class="week">{"".join(rows)}</ul>')
+    (ROOT / "index.html").write_text(page("Learning digests", "", body), encoding="utf-8")
 
 
 # ----------------------------------------------------------- archive + git
@@ -534,6 +561,8 @@ def main():
     ap.add_argument("--date", help="any date in the week to build (YYYY-MM-DD)")
     ap.add_argument("--mock", action="store_true", help="skip the model; placeholder text")
     ap.add_argument("--force", action="store_true", help="rebuild an existing week")
+    ap.add_argument("--backfill", action="store_true",
+                    help="build a past week (needs --date) into archive/, leaving current/ alone")
     args = ap.parse_args()
 
     if args.date:
@@ -554,9 +583,16 @@ def main():
         raise SystemExit("Both tracks have finished. Nothing to build.")
 
     meta = CURRENT / "week.json"
-    if meta.exists() and not args.force:
-        if json.loads(meta.read_text(encoding="utf-8")).get("id") == wid:
-            raise SystemExit(f"{wid} is already built. Use --force to rebuild it.")
+    current_id = json.loads(meta.read_text(encoding="utf-8")).get("id") if meta.exists() else None
+    if args.backfill:
+        if not args.date:
+            raise SystemExit("--backfill needs --date.")
+        if wid == current_id:
+            raise SystemExit(f"{wid} is the current week. Build it without --backfill.")
+        if (ARCHIVE / wid / "week.json").exists() and not args.force:
+            raise SystemExit(f"{wid} is already archived. Use --force to rebuild it.")
+    elif current_id == wid and not args.force:
+        raise SystemExit(f"{wid} is already built. Use --force to rebuild it.")
 
     if not args.mock:
         ensure_ollama()
@@ -564,11 +600,18 @@ def main():
     fin = (fin_label, *build_finance(fin_label, fin_src, args.mock)) if fin_src else (None, None, None)
     vis = (vis_label, *build_visual(vis_label, vis_src, args.mock)) if vis_src else (None, None, None)
 
-    archive_previous(wid, args.force)
-    render(monday, fin, vis)
-    log(f"wrote {CURRENT / 'index.html'}")
+    if args.backfill:
+        out = ARCHIVE / wid
+        if out.exists():
+            shutil.rmtree(out)
+    else:
+        out = CURRENT
+        archive_previous(wid, args.force)
+    render(monday, fin, vis, out)
+    write_home()
+    log(f"wrote {out / 'index.html'}")
     if not args.mock:
-        git_sync(f"Week {wid}")
+        git_sync(f"Week {wid}" + (" (backfill)" if args.backfill else ""))
 
 
 if __name__ == "__main__":
