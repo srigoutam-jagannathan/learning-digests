@@ -1,0 +1,96 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Thu 12 Nov - Capitalisation rules vary in lab companies</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&display=swap" rel="stylesheet"><style>
+:root{color-scheme:light dark;
+ --bg:#EEF1F4;--surface:#FFFFFF;--ink:#16202A;--muted:#5B6875;--line:#D5DCE3;
+ --fin:#0E6B5C;--vis:#6B3FA0;--mark:#F2C230;--mark-ink:#16202A;
+ --display:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",sans-serif;
+ --text:"Source Serif 4",Georgia,"Times New Roman",serif}
+@media (prefers-color-scheme:dark){:root{
+ --bg:#10161C;--surface:#18212A;--ink:#E8EDF2;--muted:#93A1AF;--line:#2A3642;
+ --fin:#5FC9B5;--vis:#B79AE6}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--text);
+ font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+main{max-width:860px;margin:0 auto;padding:24px 18px 64px}
+nav{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-bottom:28px;
+ font-family:var(--display);font-size:14px}
+nav a{padding:6px 12px;border-radius:999px;text-decoration:none;color:var(--muted);
+ border:1px solid var(--line)}
+nav a:hover{color:var(--ink);border-color:var(--muted)}
+nav a:focus-visible{outline:2px solid var(--fin);outline-offset:2px}
+nav a[aria-current]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+nav .home{margin-right:auto;border:0;padding-left:0;font-weight:600;color:var(--ink)}
+.date{font-family:var(--display);color:var(--muted);font-size:15px;margin:0 0 6px}
+section{margin-top:40px}
+.track{font-family:var(--display);font-size:14px;font-weight:600;margin:0 0 10px}
+.fin .track{color:var(--fin)}.vis .track{color:var(--vis)}
+h1,h2{font-family:var(--display);font-weight:700;letter-spacing:-.02em;
+ line-height:1.08;margin:0 0 18px}
+h1{font-size:clamp(34px,7vw,56px)}h2{font-size:clamp(28px,5.5vw,42px)}
+.one{font-size:clamp(20px,3.4vw,25px);line-height:1.45;margin:0 0 24px;max-width:30em}
+.one span{background:linear-gradient(transparent 12%,var(--mark) 12%,var(--mark) 92%,transparent 92%);
+ color:var(--mark-ink);padding:0 .15em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.narr{max-width:38em;margin:0 0 28px}
+.ideas{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin:0 0 28px;
+ border-top:2px solid var(--ink)}
+.ideas div{padding:14px 16px 4px 0}
+.ideas div+div{padding-left:16px;border-left:1px solid var(--line)}
+.ideas b{display:block;font-family:var(--display);font-size:17px;margin-bottom:4px}
+.ideas p{margin:0;font-size:15.5px;line-height:1.5;color:var(--muted)}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:0 0 24px}
+.box{background:var(--surface);border-radius:14px;padding:20px 22px}
+.box h3{font-family:var(--display);font-size:16px;margin:0 0 12px}
+table{width:100%;border-collapse:collapse;font-family:var(--display);font-size:15.5px}
+td{padding:7px 0;border-bottom:1px solid var(--line);vertical-align:top}
+td:last-child{text-align:right;font-variant-numeric:tabular-nums;font-weight:600;
+ padding-left:12px;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+.take{font-size:15px;color:var(--muted);margin:12px 0 0}
+ol.flow{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.flow li{counter-increment:s;position:relative;padding:0 0 14px 38px}
+ol.flow li::before{content:counter(s);position:absolute;left:0;top:1px;width:25px;height:25px;
+ border-radius:50%;display:grid;place-items:center;font-family:var(--display);
+ font-size:13px;font-weight:700;color:var(--surface)}
+.fin ol.flow li::before{background:var(--fin)}.vis ol.flow li::before{background:var(--vis)}
+ol.flow li:not(:last-child)::after{content:"";position:absolute;left:12px;top:28px;
+ bottom:2px;width:1px;background:var(--line)}
+ol.flow b{font-family:var(--display);font-size:15.5px;display:block}
+ol.flow span{font-size:14.5px;color:var(--muted);line-height:1.45;display:block}
+.do{border-left:4px solid;padding:4px 0 4px 16px;margin:0 0 18px;max-width:38em}
+.fin .do{border-color:var(--fin)}.vis .do{border-color:var(--vis)}
+.do b{font-family:var(--display);font-size:15px;display:block}
+.hand{color:var(--muted);font-style:italic;max-width:38em;margin:0}
+.mini{background:var(--surface);border-radius:14px;padding:20px 22px}
+.mini h2{font-size:24px;margin-bottom:8px}
+.mini p{margin:0 0 6px;max-width:36em}.mini .why{color:var(--muted);font-size:15px}
+.week{list-style:none;padding:0;margin:24px 0 0;border-top:2px solid var(--ink)}
+.week li{border-bottom:1px solid var(--line)}
+.week a{display:grid;grid-template-columns:120px 1fr;gap:4px 16px;padding:14px 0;
+ text-decoration:none;color:inherit}
+.week a:hover .t{text-decoration:underline}
+.week .d{font-family:var(--display);color:var(--muted);font-size:15px}
+.week .t{font-family:var(--display);font-weight:600;font-size:18px;line-height:1.3}
+.week .v{grid-column:2;color:var(--muted);font-size:15px}
+@media (max-width:640px){.ideas,.pair{grid-template-columns:1fr}
+ .ideas div+div{padding-left:0;border-left:0;border-top:1px solid var(--line)}
+ .week a{grid-template-columns:1fr}.week .v{grid-column:1}}
+@media print{nav{display:none}body{background:#fff}}
+</style></head><body><main><nav><a class="home" href="index.html">This week</a><a href="mon.html">Mon</a><a href="tue.html">Tue</a><a href="wed.html">Wed</a><a href="thu.html" aria-current="page">Thu</a><a href="fri.html">Fri</a><a href="sat.html">Sat</a><a href="sun.html">Sun</a></nav><p class="date">Thursday 12 November 2026</p>
+<section class="fin">
+<p class="track">Business and finance · Syllabus weeks 7–8: Working capital; D&amp;A and capitalisation</p>
+<h1>Capitalisation rules vary in lab companies</h1>
+<p class="one"><span>Depreciation &amp; amortisation (D&amp;A) reduces working capital ratios by increasing non-cash expenses.</span></p>
+<p class="narr">Yesterday&#x27;s analysis of Hannan Meats Ltd&#x27;s working capital links to today&#x27;s focus on how capitalisation rules affect ratios. Around Noon Ltd&#x27;s FY2024 accounts show different treatment of D&amp;A compared to Hannan Meats&#x27; small-company regime. Chapter 7 explains how capitalisation impacts working capital calculations.</p>
+<div class="ideas"><div><b>Capitalisation</b><p>Rules determine whether expenses are treated as immediate costs or capitalised assets.</p></div><div><b>D&amp;A impact</b><p>Higher D&amp;A reduces net income and working capital ratios.</p></div><div><b>Working capital</b><p>Changes in capitalisation affect current assets and liabilities calculations.</p></div></div>
+<div class="pair">
+ <div class="box"><h3>Illustrative D&amp;A impact</h3><table><tr><td>Annual D&amp;A expense</td><td>£100k</td></tr><tr><td>Working capital ratio</td><td>1.2x</td></tr><tr><td>Post-D&amp;A adjustment</td><td>1.0x</td></tr></table>
+  <p class="take">D&amp;A reduces working capital ratios by 0.2x in this example.</p></div>
+ <div class="box"><h3>How it runs</h3><ol class="flow"><li><b>Compare rules</b><span>Contrast Around Noon Ltd and Hannan Meats&#x27; capitalisation methods.</span></li><li><b>Analyze D&amp;A</b><span>Calculate D&amp;A&#x27;s effect on net income and working capital.</span></li><li><b>Calculate ratios</b><span>Adjust working capital ratios using capitalisation data.</span></li></ol></div>
+</div>
+<div class="do"><b>Today's session</b>Compare capitalisation rules in Around Noon Ltd (NI067491) and Hannan Meats Ltd. Analyse D&amp;A&#x27;s impact on working capital ratios using Chapter 7 (pages 95–100).</div>
+<p class="hand">Tomorrow&#x27;s session will build on today&#x27;s analysis to examine working capital construction.</p>
+</section>
+<section class="vis">
+<p class="track">Visual creation · Swipe file, 10 minutes</p>
+<div class="mini"><h2>Declutter a complex visual</h2>
+<p>Save a visual with minimal elements; note how borders, gridlines, or legends were removed for clarity.</p><p class="why">Trains simplifying visuals to focus on key insights.</p></div>
+</section></main></body></html>

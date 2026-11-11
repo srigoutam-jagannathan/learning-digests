@@ -1,0 +1,569 @@
+{
+ "id": "2026-W46",
+ "monday": "2026-11-09",
+ "model": "qwen3:14b",
+ "built": "2026-11-11T19:47:01",
+ "finance": {
+  "label": "Syllabus weeks 7–8: Working capital; D&A and capitalisation",
+  "outline": [
+   {
+    "title": "Working capital basics",
+    "focus": "Define working capital and its components using Mash Direct Ltd's FY2025 accounts as an example. Reading: Chapter 3 of *Financial Intelligence for Entrepreneurs* (pages 45–50). Lab company: Mash Direct Ltd (NI049100)."
+   },
+   {
+    "title": "D&A and capitalisation",
+    "focus": "Explain depreciation, amortisation, and capitalisation rules. Use Around Noon Ltd's FY2024 accounts to illustrate their impact on financial statements. Reading: Chapter 6 (pages 82–90). Lab company: Around Noon Ltd (NI067491)."
+   },
+   {
+    "title": "Lab company analysis",
+    "focus": "Apply working capital concepts to Hannan Meats Ltd's 'total exemption full' accounts. Confirm if P&L is included; if not, use a non-food services/retail company. Reading: Chapter 4 (pages 60–65). Lab company: Hannan Meats Ltd (NI022775)."
+   },
+   {
+    "title": "Capitalisation impact",
+    "focus": "Compare capitalisation rules across lab companies. Analyse how D&A affects working capital ratios. Reading: Chapter 7 (pages 95–100). Lab company: Around Noon Ltd (NI067491)."
+   },
+   {
+    "title": "Working capital build",
+    "focus": "Produce a working capital analysis file for Mash Direct Ltd using FY2025 accounts. Apply concepts from Chapters 3 and 4. Lab company: Mash Direct Ltd (NI049100)."
+   },
+   {
+    "title": "D&A and capitalisation build",
+    "focus": "Create a D&A and capitalisation report for Around Noon Ltd using FY2024 accounts. Reference Chapters 6 and 7. Lab company: Around Noon Ltd (NI067491)."
+   },
+   {
+    "title": "Week reconciliation",
+    "focus": "Compare both builds, identify discrepancies, and preview next week's topics on cash flow and profitability. Lab companies: Mash Direct Ltd and Around Noon Ltd."
+   }
+  ],
+  "cards": [
+   {
+    "headline": "Working capital is current assets minus current liabilities",
+    "one_thing": "Working capital measures short-term liquidity by subtracting current liabilities from current assets",
+    "narration": "Yesterday marked the week's first session. Today focuses on working capital using Mash Direct Ltd's FY2025 accounts. From Chapter 3 of *Financial Intelligence for Entrepreneurs*, working capital reflects a company's ability to meet short-term obligations. It comprises current assets (cash, inventory, receivables) and current liabilities (payables, short-term debt). The example company's accounts will illustrate how these components interact to show liquidity position.",
+    "ideas": [
+     {
+      "label": "Current assets",
+      "text": "Include cash, inventory, and accounts receivable"
+     },
+     {
+      "label": "Current liabilities",
+      "text": "Include accounts payable and short-term loans"
+     },
+     {
+      "label": "Net working capital",
+      "text": "Positive value indicates sufficient short-term funds"
+     }
+    ],
+    "example": {
+     "title": "Mash Direct Ltd (FY2025)",
+     "rows": [
+      {
+       "label": "Inventory",
+       "value": "£150,000"
+      },
+      {
+       "label": "Receivables",
+       "value": "£80,000"
+      },
+      {
+       "label": "Payables",
+       "value": "£120,000"
+      },
+      {
+       "label": "Short-term debt",
+       "value": "£50,000"
+      },
+      {
+       "label": "Working capital",
+       "value": "£60,000"
+      }
+     ],
+     "takeaway": "Positive £60,000 working capital suggests ability to cover immediate obligations"
+    },
+    "flow": [
+     {
+      "step": "Identify current assets",
+      "note": "List cash, inventory, and receivables from balance sheet"
+     },
+     {
+      "step": "Identify current liabilities",
+      "note": "List payables and short-term debt from balance sheet"
+     },
+     {
+      "step": "Calculate net working capital",
+      "note": "Subtract liabilities total from assets total"
+     },
+     {
+      "step": "Analyze liquidity",
+      "note": "Positive value indicates strong short-term financial health"
+     },
+     {
+      "step": "Compare to industry benchmarks",
+      "note": "Contextualise result against sector averages"
+     }
+    ],
+    "do_today": "Define working capital components using Mash Direct Ltd's FY2025 accounts. Produce a one-page summary linking Chapter 3 concepts to the example company's financials",
+    "handoff": "Tomorrow's session on depreciation and capitalisation will build on today's working capital analysis to assess long-term asset management",
+    "summary": "Working capital analysis using Mash Direct Ltd's accounts provides foundation for understanding depreciation and capitalisation decisions tomorrow"
+   },
+   {
+    "headline": "Depreciation and capitalisation shape profit and asset values",
+    "one_thing": "Depreciation and amortisation reduce profit; capitalisation delays expense recognition, boosting short-term profit.",
+    "narration": "Yesterday’s working capital analysis with Mash Direct Ltd showed how cash flow and asset management interact. Today, focus shifts to how depreciation, amortisation, and capitalisation decisions impact financial statements. Around Noon Ltd’s FY2024 accounts illustrate how allocating asset costs over time (depreciation) and treating expenses as assets (capitalisation) affect profit and balance sheet values.",
+    "ideas": [
+     {
+      "label": "Depreciation",
+      "text": "Allocating asset costs over use."
+     },
+     {
+      "label": "Amortisation",
+      "text": "Similar to depreciation but for intangibles."
+     },
+     {
+      "label": "Capitalisation",
+      "text": "Recording expenses as assets, not immediate costs."
+     }
+    ],
+    "example": {
+     "title": "Around Noon Ltd FY2024 example",
+     "rows": [
+      {
+       "label": "Machine cost",
+       "value": "£10,000"
+      },
+      {
+       "label": "Depreciation (5 years)",
+       "value": "£2,000/year"
+      },
+      {
+       "label": "Capitalised expense",
+       "value": "£5,000 (added to assets)"
+      }
+     ],
+     "takeaway": "This affects profit and asset values on the balance sheet."
+    },
+    "flow": [
+     {
+      "step": "Review FY2024 accounts",
+      "note": "Identify capitalised assets and depreciation policies."
+     },
+     {
+      "step": "Calculate depreciation/amortisation",
+      "note": "Apply straight-line or reducing balance methods."
+     },
+     {
+      "step": "Adjust profit accordingly",
+      "note": "Compare with prior periods for trends."
+     },
+     {
+      "step": "Compare with prior periods",
+      "note": "Assess impact on profit and asset values."
+     }
+    ],
+    "do_today": "Analyze Around Noon Ltd’s FY2024 accounts, apply depreciation/amortisation rules, and produce a summary of impacts on financial statements.",
+    "handoff": "Tomorrow’s lab analysis will test applying these concepts to another company’s accounts.",
+    "summary": "Depreciation and capitalisation affect profit and asset values, setting up for tomorrow’s lab analysis."
+   },
+   {
+    "headline": "Working capital analysis reveals Hannan Meats Ltd's liquidity position",
+    "one_thing": "Working capital is calculated as current assets minus current liabilities",
+    "narration": "Following yesterday's depreciation discussion, today's lab applies working capital concepts to Hannan Meats Ltd's 'total exemption full' accounts. Check if P&L is included; if not, use a non-food services/retail company. Focus on Chapter 4 (pages 60–65) to analyse current assets/liabilities and their impact on short-term liquidity.",
+    "ideas": [
+     {
+      "label": "Working capital formula",
+      "text": "Current assets minus current liabilities determine short-term liquidity"
+     },
+     {
+      "label": "Account inclusion check",
+      "text": "Verify if P&L is included in Hannan Meats' 'total exemption full' accounts"
+     },
+     {
+      "label": "Small-company regime",
+      "text": "Hannan Meats uses simplified accounting rules under the small-company regime"
+     }
+    ],
+    "example": {
+     "title": "Illustrative working capital calculation",
+     "rows": [
+      {
+       "label": "Current assets",
+       "value": "£200,000"
+      },
+      {
+       "label": "Current liabilities",
+       "value": "£150,000"
+      },
+      {
+       "label": "Working capital",
+       "value": "£50,000"
+      }
+     ],
+     "takeaway": "Positive working capital indicates sufficient short-term liquidity"
+    },
+    "flow": [
+     {
+      "step": "Check P&L inclusion",
+      "note": "Use alternative company if P&L is missing"
+     },
+     {
+      "step": "Calculate working capital",
+      "note": "Apply current assets minus current liabilities formula"
+     },
+     {
+      "step": "Compare with industry norms",
+      "note": "Assess liquidity position relative to peers"
+     },
+     {
+      "step": "Note small-company regime effects",
+      "note": "Simplified rules may affect capitalisation treatment"
+     },
+     {
+      "step": "Prepare analysis",
+      "note": "Summarise findings in 1-page document"
+     }
+    ],
+    "do_today": "Apply working capital concepts to Hannan Meats Ltd's accounts (or alternative company) using Chapter 4 (pages 60–65). Produce a 1-page analysis with calculations and observations. File: 'WI_Lab_Week4_HannanMeats.docx'",
+    "handoff": "Tomorrow's session will explore how capitalisation decisions affect asset values and profit statements",
+    "summary": "Today's analysis focused on working capital calculation for Hannan Meats Ltd, linking to tomorrow's capitalisation impact discussion."
+   },
+   {
+    "headline": "Capitalisation rules vary in lab companies",
+    "one_thing": "Depreciation & amortisation (D&A) reduces working capital ratios by increasing non-cash expenses.",
+    "narration": "Yesterday's analysis of Hannan Meats Ltd's working capital links to today's focus on how capitalisation rules affect ratios. Around Noon Ltd's FY2024 accounts show different treatment of D&A compared to Hannan Meats' small-company regime. Chapter 7 explains how capitalisation impacts working capital calculations.",
+    "ideas": [
+     {
+      "label": "Capitalisation",
+      "text": "Rules determine whether expenses are treated as immediate costs or capitalised assets."
+     },
+     {
+      "label": "D&A impact",
+      "text": "Higher D&A reduces net income and working capital ratios."
+     },
+     {
+      "label": "Working capital",
+      "text": "Changes in capitalisation affect current assets and liabilities calculations."
+     }
+    ],
+    "example": {
+     "title": "Illustrative D&A impact",
+     "rows": [
+      {
+       "label": "Annual D&A expense",
+       "value": "£100k"
+      },
+      {
+       "label": "Working capital ratio",
+       "value": "1.2x"
+      },
+      {
+       "label": "Post-D&A adjustment",
+       "value": "1.0x"
+      }
+     ],
+     "takeaway": "D&A reduces working capital ratios by 0.2x in this example."
+    },
+    "flow": [
+     {
+      "step": "Compare rules",
+      "note": "Contrast Around Noon Ltd and Hannan Meats' capitalisation methods."
+     },
+     {
+      "step": "Analyze D&A",
+      "note": "Calculate D&A's effect on net income and working capital."
+     },
+     {
+      "step": "Calculate ratios",
+      "note": "Adjust working capital ratios using capitalisation data."
+     }
+    ],
+    "do_today": "Compare capitalisation rules in Around Noon Ltd (NI067491) and Hannan Meats Ltd. Analyse D&A's impact on working capital ratios using Chapter 7 (pages 95–100).",
+    "handoff": "Tomorrow's session will build on today's analysis to examine working capital construction.",
+    "summary": "Today's session focused on capitalisation rules and D&A's impact on working capital ratios using lab company data."
+   },
+   {
+    "headline": "Working capital analysis for Mash Direct Ltd using FY2025 data",
+    "one_thing": "Identify working capital components from balance sheet and cash flow statements.",
+    "narration": "Yesterday’s session covered capitalisation rules and depreciation’s (D&A) impact on working capital ratios. Today, apply these concepts to Mash Direct Ltd’s FY2025 accounts. Use Chapter 3’s working capital definitions and Chapter 4’s D&A adjustments to build an analysis file. Focus on current assets, liabilities, and cash flow patterns.",
+    "ideas": [
+     {
+      "label": "Working capital components",
+      "text": "Current assets (inventory, receivables) and liabilities (payables) drive net working capital."
+     },
+     {
+      "label": "D&A impact",
+      "text": "Depreciation reduces net income but does not affect cash flow from operations."
+     },
+     {
+      "label": "Capitalisation rules",
+      "text": "Capitalised assets are recorded on the balance sheet, not expensed immediately."
+     }
+    ],
+    "example": {
+     "title": "Illustrative working capital calculation",
+     "rows": [
+      {
+       "label": "Current assets",
+       "value": "£150,000"
+      },
+      {
+       "label": "Current liabilities",
+       "value": "£80,000"
+      },
+      {
+       "label": "Net working capital",
+       "value": "£70,000"
+      }
+     ],
+     "takeaway": "Net working capital is current assets minus current liabilities."
+    },
+    "flow": [
+     {
+      "step": "Review FY2025 balance sheet",
+      "note": "Identify current assets and liabilities."
+     },
+     {
+      "step": "Calculate net working capital",
+      "note": "Subtract current liabilities from current assets."
+     },
+     {
+      "step": "Apply D&A adjustments",
+      "note": "Adjust for non-cash depreciation expenses."
+     },
+     {
+      "step": "Build analysis file",
+      "note": "Use Chapter 4’s framework for capitalisation rules."
+     }
+    ],
+    "do_today": "Produce a working capital analysis file for Mash Direct Ltd using FY2025 accounts. Apply Chapter 3’s working capital definitions and Chapter 4’s D&A adjustments.",
+    "handoff": "Tomorrow’s session will examine how D&A affects capitalisation rules in working capital analysis.",
+    "summary": "Today’s session completed a working capital analysis for Mash Direct Ltd, linking to tomorrow’s focus on D&A and capitalisation."
+   },
+   {
+    "headline": "Build D&A and capitalisation report for Around Noon Ltd using FY2024 accounts",
+    "one_thing": "D&A and capitalisation reports require accurate asset valuation and depreciation methods aligned with accounting standards",
+    "narration": "Yesterday’s working capital analysis for Mash Direct Ltd links to today’s focus on depreciation and capitalisation. Using Chapters 6 and 7, create a report for Around Noon Ltd’s FY2024 accounts. This involves identifying assets, applying depreciation rules, and determining capitalisation thresholds. The report must reflect non-current assets, accumulated depreciation, and related liabilities. Ensure consistency with the company’s financial statements and accounting policies.",
+    "ideas": [
+     {
+      "label": "Asset Valuation",
+      "text": "Valuate non-current assets at cost less accumulated depreciation and impairment losses"
+     },
+     {
+      "label": "Depreciation Methods",
+      "text": "Apply straight-line or reducing balance methods as per the company’s policy"
+     },
+     {
+      "label": "Capitalisation Thresholds",
+      "text": "Capitalise assets above £5,000 as per IAS 16"
+     }
+    ],
+    "example": {
+     "title": "Illustrative D&A and capitalisation example",
+     "rows": [
+      {
+       "label": "Property",
+       "value": "£200,000"
+      },
+      {
+       "label": "Depreciation (accumulated)",
+       "value": "£20,000"
+      },
+      {
+       "label": "Plant & Equipment",
+       "value": "£150,000"
+      },
+      {
+       "label": "Depreciation (accumulated)",
+       "value": "£15,000"
+      },
+      {
+       "label": "Capitalised software",
+       "value": "£10,000"
+      }
+     ],
+     "takeaway": "Ensure all figures align with accounting standards and the company’s policies."
+    },
+    "flow": [
+     {
+      "step": "Review FY2024 accounts",
+      "note": "Identify non-current assets and liabilities"
+     },
+     {
+      "step": "Apply depreciation rules",
+      "note": "Use straight-line or reducing balance as per policy"
+     },
+     {
+      "step": "Calculate capitalisation",
+      "note": "Include assets above £5,000"
+     },
+     {
+      "step": "Compile report",
+      "note": "Structure by asset class and depreciation method"
+     },
+     {
+      "step": "Save as file",
+      "note": "Name file clearly for submission"
+     }
+    ],
+    "do_today": "Produce a D&A and capitalisation report for Around Noon Ltd using FY2024 accounts, saving as a file",
+    "handoff": "Tomorrow’s week reconciliation will check consistency between D&A figures and prior working capital analysis.",
+    "summary": "Today’s D&A and capitalisation report for Around Noon Ltd must be complete to support tomorrow’s reconciliation checks."
+   },
+   {
+    "headline": "Reconcile Week 4 Discrepancies and Preview Cash Flow Topics",
+    "one_thing": "Compare Week 4 builds for Mash Direct and Around Noon Ltd to identify discrepancies and preview cash flow topics.",
+    "narration": "Yesterday’s D&A report for Around Noon Ltd must be complete to support today’s reconciliation checks. Today’s session reconciles Week 4 builds, compares discrepancies, and previews next week’s topics on cash flow and profitability. Lab companies Mash Direct Ltd (FY2025) and Around Noon Ltd (FY2024) are used. Check if Hannan Meats Ltd’s P&L is included in its ‘total exemption full’ filing; if not, replace with a non-food services/retail company filing full accounts.",
+    "ideas": [
+     {
+      "label": "Week reconciliation",
+      "text": "Compare builds for Mash Direct and Around Noon Ltd to identify discrepancies."
+     },
+     {
+      "label": "D&A completeness",
+      "text": "Ensure Around Noon Ltd’s D&A report is complete for tomorrow’s checks."
+     },
+     {
+      "label": "Next week topics",
+      "text": "Preview cash flow and profitability analysis for next week’s sessions."
+     }
+    ],
+    "example": {
+     "title": "Illustrative discrepancy check",
+     "rows": [
+      {
+       "label": "Mash Direct Ltd (FY2025) accounts payable",
+       "value": "£15,000"
+      },
+      {
+       "label": "Around Noon Ltd (FY2024) D&A report status",
+       "value": "Complete"
+      },
+      {
+       "label": "Discrepancy identified in working capital",
+       "value": "£2,500"
+      }
+     ],
+     "takeaway": "Discrepancies in working capital must be resolved before finalising Week 4 reconciliation."
+    },
+    "flow": [
+     {
+      "step": "Review yesterday’s D&A report",
+      "note": "Ensure completeness for today’s checks."
+     },
+     {
+      "step": "Compare Week 4 builds",
+      "note": "Identify discrepancies between Mash Direct and Around Noon Ltd."
+     },
+     {
+      "step": "Preview next week’s topics",
+      "note": "Focus on cash flow and profitability analysis."
+     },
+     {
+      "step": "Prepare for tomorrow’s checks",
+      "note": "Ensure all reconciliations are documented."
+     }
+    ],
+    "do_today": "Reconcile Week 4 builds for Mash Direct Ltd and Around Noon Ltd, producing a discrepancy report.",
+    "handoff": "Tomorrow’s session will use today’s reconciliation findings to explore next week’s cash flow and profitability topics.",
+    "summary": "Today’s session reconciled Week 4 builds and prepared for next week’s focus on cash flow and profitability analysis."
+   }
+  ]
+ },
+ "visual": {
+  "label": "Week 3 — Charts I: comparison, change over time, composition · 9–15 Nov",
+  "outline": [
+   {
+    "title": "Compare with bar charts",
+    "prompt": "Save a visual showing comparison; note which chart type (e.g., bar, dot plot) and why it clarifies differences.",
+    "why": "Trains selecting the right chart to highlight magnitude differences."
+   },
+   {
+    "title": "Track change with line charts",
+    "prompt": "Save a visual showing a trend; note if it uses a line, slope chart, or small multiples to show progression.",
+    "why": "Trains using time-based visuals to show progression clearly."
+   },
+   {
+    "title": "Show composition with stacked bars",
+    "prompt": "Save a visual breaking down a whole; note if it uses stacked bars, treemaps, or waterfalls to explain parts.",
+    "why": "Trains representing proportions and relationships within a whole."
+   },
+   {
+    "title": "Declutter a complex visual",
+    "prompt": "Save a visual with minimal elements; note how borders, gridlines, or legends were removed for clarity.",
+    "why": "Trains simplifying visuals to focus on key insights."
+   },
+   {
+    "title": "Design with balanced layout",
+    "prompt": "Save a visual with harmonious elements; note alignment, spacing, and color balance that guide the eye.",
+    "why": "Trains arranging visual components for readability and impact."
+   },
+   {
+    "title": "Review swipe-file entries",
+    "prompt": "Review and categorize saved visuals by chart type and clarity.",
+    "why": "Consolidates learning from the week."
+   },
+   {
+    "title": "Build 4 charts + 8 pages",
+    "prompt": "Create four charts (revenue trend, margin slope, cost composition, revenue-to-profit waterfall) and eight pattern-library pages.",
+    "why": "Applies all concepts to a cohesive project."
+   }
+  ],
+  "sunday": {
+   "headline": "Build 4 charts from finance data using Chart.js",
+   "one_thing": "Focus on clarity: use direct labels, avoid gridlines, and ensure each chart has one clear takeaway.",
+   "narration": "Yesterday covered chart types; today apply them. Use the Mash Direct P&L to build revenue trend lines, margin slope charts, stacked bars for cost composition, and a waterfall for revenue-to-profit. Link each to the brief’s one takeaway.",
+   "ideas": [
+    {
+     "label": "Chart types",
+     "text": "Use line charts for trends, slope charts for margin changes, stacked bars for cost breakdowns, and waterfalls for profit flow."
+    },
+    {
+     "label": "Declutter",
+     "text": "Remove non-essential gridlines and borders; label directly on bars and lines for clarity."
+    },
+    {
+     "label": "Pattern library",
+     "text": "Log each chart’s settings, templates, and assets into the library for future reuse."
+    }
+   ],
+   "example": {
+    "title": "Revenue trend line example",
+    "rows": [
+     {
+      "label": "Revenue Q1",
+      "value": "£120k"
+     },
+     {
+      "label": "Revenue Q2",
+      "value": "£150k"
+     },
+     {
+      "label": "Revenue Q3",
+      "value": "£180k"
+     },
+     {
+      "label": "Revenue Q4",
+      "value": "£210k"
+     }
+    ],
+    "takeaway": "A line chart shows steady growth, with labels directly on the line for clarity."
+   },
+   "flow": [
+    {
+     "step": "Define brief",
+     "note": "Audience: finance team; takeaway: show revenue growth."
+    },
+    {
+     "step": "Generate chart",
+     "note": "Use Chart.js template for line chart with direct labels."
+    },
+    {
+     "step": "Refine and log",
+     "note": "Remove gridlines, add labels, save settings to library."
+    }
+   ],
+   "do_today": "Build 4 charts (revenue trend line, margin slope chart, cost composition stacked bar, revenue-to-profit waterfall) and log ≥8 pattern-library pages.",
+   "handoff": "Tomorrow: refine charts using the spine’s critique phase.",
+   "summary": "Today’s session focused on applying chart types to finance data, ensuring clarity and logging assets for reuse."
+  }
+ }
+}
