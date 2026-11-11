@@ -1,0 +1,577 @@
+{
+ "id": "2026-W45",
+ "monday": "2026-11-02",
+ "model": "qwen3:14b",
+ "built": "2026-11-11T21:40:56",
+ "finance": {
+  "label": "Syllabus weeks 5–6: Linkages; accruals & revenue recognition",
+  "outline": [
+   {
+    "title": "Linkages intro",
+    "focus": "Understand connections between financial statements using Mash Direct Ltd FY2025 accounts and *Financial Intelligence* chapter 3"
+   },
+   {
+    "title": "Accruals basics",
+    "focus": "Define accrual accounting principles and revenue recognition rules with *Financial Intelligence* chapter 5"
+   },
+   {
+    "title": "Revenue standards",
+    "focus": "Compare IFRS 15 and GAAP revenue recognition using Around Noon Ltd FY2024 accounts"
+   },
+   {
+    "title": "Apply linkages",
+    "focus": "Trace cash flow impacts on P&L and balance sheet using Hannan Meats Ltd (if P&L available) or alternative company"
+   },
+   {
+    "title": "Build 1: Linkages analysis",
+    "focus": "Produce 2-page report on Mash Direct Ltd FY2025 linkages between income statement and cash flow statement"
+   },
+   {
+    "title": "Build 2: Accruals audit",
+    "focus": "Create 3-page analysis of Around Noon Ltd FY2024 revenue recognition practices and accrual adjustments"
+   },
+   {
+    "title": "Week review",
+    "focus": "Compare build outputs against *Financial Intelligence* concepts and preview next week's tax implications topic"
+   }
+  ],
+  "cards": [
+   {
+    "headline": "Linkages reveal financial statement interdependencies",
+    "one_thing": "Link income statements, balance sheets, and cash flow statements to trace financial flows.",
+    "narration": "This session builds on yesterday’s introduction to linkages by using Mash Direct Ltd’s FY2025 accounts and *Financial Intelligence* chapter 3. Focus is on how income statement profits affect retained earnings (balance sheet) and cash flow from operations. The book explains how accruals and cash flows differ, while the accounts show real-world examples of these relationships.",
+    "ideas": [
+     {
+      "label": "Statement connections",
+      "text": "Income statement profits increase retained earnings on the balance sheet."
+     },
+     {
+      "label": "Cash flow linkages",
+      "text": "Operating cash flow adjusts net income for non-cash items like depreciation."
+     },
+     {
+      "label": "Accruals impact",
+      "text": "Accruals affect income statement timing but not immediate cash flow."
+     }
+    ],
+    "example": {
+     "title": "Mash Direct Ltd FY2025 illustrative example",
+     "rows": [
+      {
+       "label": "Revenue",
+       "value": "£200,000"
+      },
+      {
+       "label": "Expenses",
+       "value": "£150,000"
+      },
+      {
+       "label": "Profit",
+       "value": "£50,000"
+      },
+      {
+       "label": "Retained earnings (balance sheet)",
+       "value": "£50,000"
+      },
+      {
+       "label": "Cash flow from operations",
+       "value": "£50,000 (adjusted for accruals)"
+      }
+     ],
+     "takeaway": "Profit influences balance sheet and cash flow, but not directly."
+    },
+    "flow": [
+     {
+      "step": "Review income statement",
+      "note": "Identify profit figures."
+     },
+     {
+      "step": "Check balance sheet",
+      "note": "Locate retained earnings changes."
+     },
+     {
+      "step": "Compare cash flow statement",
+      "note": "Note adjustments to net income."
+     },
+     {
+      "step": "Identify accruals",
+      "note": "Spot non-cash items in cash flow."
+     },
+     {
+      "step": "Cross-reference with chapter 3",
+      "note": "Align with book’s linkage examples."
+     }
+    ],
+    "do_today": "Analyze Mash Direct Ltd’s FY2025 accounts and *Financial Intelligence* chapter 3 to map financial statement connections. Produce a 1-page summary.",
+    "handoff": "Tomorrow’s session will explore how accruals affect revenue recognition and financial statements.",
+    "summary": "Linkages show how financial statements interconnect, guiding tomorrow’s accruals discussion."
+   },
+   {
+    "headline": "Accruals track income and expenses when they occur, not when paid",
+    "one_thing": "Accrual accounting matches revenues and expenses to the period they're incurred, not cash flow timing",
+    "narration": "Yesterday’s linkage discussion showed how financial statements connect. Today, we apply this to accruals: income and expenses are recorded when earned/incurred, not when cash changes hands. Chapter 5 of *Financial Intelligence* explains this, focusing on revenue recognition rules. This method ensures financial statements reflect true business performance across periods, even if cash flows differ.",
+    "ideas": [
+     {
+      "label": "Matching principle",
+      "text": "Revenues and expenses are paired to the period they relate to, not cash timing"
+     },
+     {
+      "label": "Revenue timing",
+      "text": "Revenue is recorded when earned, not when cash is received"
+     },
+     {
+      "label": "Statement impact",
+      "text": "Accruals affect balance sheets (liabilities/assets) and income statements"
+     }
+    ],
+    "example": {
+     "title": "Illustrative accrual",
+     "rows": [
+      {
+       "label": "Cash received",
+       "value": "£10,000"
+      },
+      {
+       "label": "Unearned revenue liability",
+       "value": "£10,000"
+      }
+     ],
+     "takeaway": "Revenue is recognized when earned, not when cash is received"
+    },
+    "flow": [
+     {
+      "step": "Identify event",
+      "note": "Determine if revenue/expense has occurred"
+     },
+     {
+      "step": "Match period",
+      "note": "Assign to correct accounting period"
+     },
+     {
+      "step": "Record in statements",
+      "note": "Update income and balance sheets"
+     }
+    ],
+    "do_today": "Read *Financial Intelligence* chapter 5. Define accrual principles and note revenue recognition rules. Produce a summary document",
+    "handoff": "Tomorrow’s revenue standards will detail specific rules for when revenue is recognized under IFRS",
+    "summary": "Accruals ensure financial statements reflect true performance by matching revenues and expenses to the correct period, preparing for tomorrow’s revenue standards discussion"
+   },
+   {
+    "headline": "IFRS 15 and GAAP differ in revenue recognition timing",
+    "one_thing": "IFRS 15 uses a five-step model; GAAP focuses on core revenue principle with fewer steps.",
+    "narration": "Yesterday’s accruals discussion prepares for today’s revenue standards. Around Noon Ltd’s FY2024 accounts will highlight differences between IFRS 15 and GAAP. Both standards aim to match revenues with expenses but use distinct criteria for when revenue is recognised. This affects financial statements’ timing and presentation.",
+    "ideas": [
+     {
+      "label": "IFRS 15",
+      "text": "Requires identifying performance obligations and allocating transaction price."
+     },
+     {
+      "label": "GAAP",
+      "text": "Emphasises contract modifications and five criteria for revenue recognition."
+     },
+     {
+      "label": "Impact",
+      "text": "Differences may delay or accelerate revenue recognition in financial statements."
+     }
+    ],
+    "example": {
+     "title": "Revenue recognition comparison",
+     "rows": [
+      {
+       "label": "Contract signed",
+       "value": "30 Nov 2023"
+      },
+      {
+       "label": "IFRS 15 revenue recognised",
+       "value": "1 Feb 2024"
+      },
+      {
+       "label": "GAAP revenue recognised",
+       "value": "15 Jan 2024"
+      }
+     ],
+     "takeaway": "Timing differences arise from distinct criteria in IFRS 15 and GAAP."
+    },
+    "flow": [
+     {
+      "step": "Review accruals",
+      "note": "Link to yesterday’s session on matching revenues and expenses."
+     },
+     {
+      "step": "Compare standards",
+      "note": "Identify key differences in revenue recognition criteria."
+     },
+     {
+      "step": "Analyse accounts",
+      "note": "Use Around Noon Ltd’s FY2024 data for practical application."
+     },
+     {
+      "step": "Identify discrepancies",
+      "note": "Note where IFRS 15 and GAAP produce different outcomes."
+     },
+     {
+      "step": "Document findings",
+      "note": "Prepare summary for tomorrow’s linkage discussion."
+     }
+    ],
+    "do_today": "Compare IFRS 15 and GAAP revenue recognition using Around Noon Ltd’s FY2024 accounts; produce a summary table highlighting differences.",
+    "handoff": "Tomorrow’s session will apply these differences to link revenue recognition with broader financial reporting.",
+    "summary": "IFRS 15 and GAAP use different approaches to timing revenue recognition, affecting financial statements’ presentation."
+   },
+   {
+    "headline": "Cash flow impacts shape P&L and balance sheet linkages",
+    "one_thing": "Different revenue recognition rules under IFRS 15 and GAAP alter financial statement timing and presentation.",
+    "narration": "Yesterday’s session showed how revenue timing differs between IFRS 15 and GAAP. Today, apply this to trace cash flow effects on income statements and balance sheets using lab companies like Hannan Meats Ltd or alternatives if P&L data is missing.",
+    "ideas": [
+     {
+      "label": "Linkage",
+      "text": "Cash flow from operations directly affects retained earnings on the balance sheet and revenue on the P&L."
+     },
+     {
+      "label": "Exemption",
+      "text": "Hannan Meats Ltd uses small-company regime filings; check for P&L inclusion before proceeding."
+     },
+     {
+      "label": "Alternative",
+      "text": "If Hannan Meats lacks P&L data, use Mash Direct Ltd (FY2025) or Around Noon Ltd (FY2024) with full accounts."
+     }
+    ],
+    "example": {
+     "title": "Illustrative cash flow impact",
+     "rows": [
+      {
+       "label": "Cash flow from operations",
+       "value": "£10,000"
+      },
+      {
+       "label": "P&L revenue increase",
+       "value": "£10,000"
+      },
+      {
+       "label": "Balance sheet retained earnings",
+       "value": "£10,000"
+      }
+     ],
+     "takeaway": "Cash flow directly increases both P&L revenue and retained earnings."
+    },
+    "flow": [
+     {
+      "step": "Select company",
+      "note": "Use Hannan Meats if P&L is available."
+     },
+     {
+      "step": "Identify cash flow",
+      "note": "Extract operating cash flow figures from accounts."
+     },
+     {
+      "step": "Link to P&L",
+      "note": "Map cash flow to revenue recognition timing."
+     },
+     {
+      "step": "Balance sheet impact",
+      "note": "Update retained earnings based on P&L changes."
+     },
+     {
+      "step": "Document findings",
+      "note": "Record linkages in analysis file."
+     }
+    ],
+    "do_today": "Trace cash flow impacts on P&L and balance sheet for chosen company; produce analysis file with findings.",
+    "handoff": "Tomorrow’s session will build on this by creating a linkage analysis model.",
+    "summary": "Today’s task focused on applying cash flow linkages to P&L and balance sheets using lab company data."
+   },
+   {
+    "headline": "Mash Direct Ltd FY2025: Link Income Statement to Cash Flow",
+    "one_thing": "Changes in working capital (e.g., receivables, payables) directly impact cash flow from operations, not just profit.",
+    "narration": "Yesterday’s session used lab company data to apply cash flow linkages to P&L and balance sheets. Today’s task focuses on Mash Direct Ltd’s FY2025 accounts. Produce a 2-page report reconciling net income with cash flow from operations, checking how accruals and working capital adjustments affect cash flow.",
+    "ideas": [
+     {
+      "label": "Working capital adjustments",
+      "text": "Changes in receivables/payables alter cash flow from operations, independent of profit."
+     },
+     {
+      "label": "Non-cash items",
+      "text": "Depreciation and amortisation are added back to net income in cash flow calculations."
+     },
+     {
+      "label": "Accruals impact",
+      "text": "Accruals (e.g., accrued expenses) affect both P&L and cash flow timing differences."
+     }
+    ],
+    "example": {
+     "title": "Illustrative reconciliation",
+     "rows": [
+      {
+       "label": "Net income",
+       "value": "£100,000"
+      },
+      {
+       "label": "Add: Depreciation",
+       "value": "£20,000"
+      },
+      {
+       "label": "Less: Increase in receivables",
+       "value": "£15,000"
+      },
+      {
+       "label": "Add: Decrease in payables",
+       "value": "£10,000"
+      },
+      {
+       "label": "Cash flow from operations",
+       "value": "£115,000"
+      }
+     ],
+     "takeaway": "Adjust net income by adding back non-cash items and working capital changes to arrive at cash flow from operations."
+    },
+    "flow": [
+     {
+      "step": "Start with net income",
+      "note": "Take FY2025 income statement figure."
+     },
+     {
+      "step": "Add non-cash items",
+      "note": "Include depreciation, amortisation."
+     },
+     {
+      "step": "Adjust working capital",
+      "note": "Compare FY2024 and FY2025 receivables/payables."
+     },
+     {
+      "step": "Reconcile to cash flow",
+      "note": "Ensure alignment with operating activities section."
+     },
+     {
+      "step": "Check accruals",
+      "note": "Identify timing differences in revenue/expenses."
+     }
+    ],
+    "do_today": "Build a 2-page report analysing Mash Direct Ltd’s FY2025 linkages between income statement and cash flow statement. Output: file.",
+    "handoff": "Tomorrow’s build 2 will audit accruals, so highlight any discrepancies in timing differences for tomorrow’s analysis.",
+    "summary": "Today’s report links income statement figures to cash flow, focusing on working capital and accruals adjustments, preparing for tomorrow’s accruals audit."
+   },
+   {
+    "headline": "Around Noon Ltd's revenue recognition and accruals adjustments require scrutiny",
+    "one_thing": "Accruals adjust revenue timing; verify alignment with IFRS 15 and working capital flows",
+    "narration": "Yesterday linked income statement figures to cash flow, highlighting working capital impacts. Today’s task focuses on Around Noon Ltd’s FY2024 revenue recognition practices and accrual adjustments, ensuring compliance with IFRS 15 and accurate financial reporting. Using the company’s full accounts, the analysis will examine when revenue is recorded versus cash received, identify accruals adjustments for unbilled revenue or accrued expenses, and assess their impact on working capital. This builds on yesterday’s focus on cash flow linkages, moving toward tomorrow’s week review.",
+    "ideas": [
+     {
+      "label": "Revenue Timing",
+      "text": "Revenue recognition under IFRS 15 depends on control transfer, not cash receipt."
+     },
+     {
+      "label": "Accrual Adjustments",
+      "text": "Accruals adjust income statement figures to reflect economic reality, not just cash flows."
+     },
+     {
+      "label": "Working Capital",
+      "text": "Accruals affect working capital by delaying or accelerating cash flows relative to revenue."
+     }
+    ],
+    "example": {
+     "title": "Illustrative accruals adjustment",
+     "rows": [
+      {
+       "label": "Revenue recognised",
+       "value": "£150k"
+      },
+      {
+       "label": "Accruals adjustment",
+       "value": "£30k"
+      },
+      {
+       "label": "Net revenue",
+       "value": "£120k"
+      }
+     ],
+     "takeaway": "Accruals reduce net revenue by adjusting timing discrepancies between revenue recognition and cash flow."
+    },
+    "flow": [
+     {
+      "step": "Review FY2024 income statement",
+      "note": "Identify revenue figures and accruals line items"
+     },
+     {
+      "step": "Identify accruals adjustments",
+      "note": "Check unbilled revenue and accrued expenses"
+     },
+     {
+      "step": "Compare with cash flow",
+      "note": "Link accruals to working capital changes"
+     },
+     {
+      "step": "Check IFRS 15 compliance",
+      "note": "Verify revenue recognition timing against control transfer"
+     },
+     {
+      "step": "Compile 3-page analysis",
+      "note": "Structure findings by revenue practices, accruals, and compliance"
+     }
+    ],
+    "do_today": "Create a 3-page analysis of Around Noon Ltd FY2024 revenue recognition practices and accrual adjustments, producing a file for review",
+    "handoff": "Tomorrow’s week review will assess how today’s accruals audit informs understanding of financial statement accuracy.",
+    "summary": "Today’s analysis of Around Noon Ltd’s revenue recognition and accruals prepares for tomorrow’s week review by clarifying accruals’ impact on financial statements."
+   },
+   {
+    "headline": "Accruals shape financial statements and tax outcomes",
+    "one_thing": "Accruals adjust revenue timing, affecting both current and future tax liabilities",
+    "narration": "Yesterday’s analysis of Around Noon Ltd’s revenue recognition and accruals clarifies how these adjustments influence financial statements. Today’s review links this to Financial Intelligence concepts, preparing for tomorrow’s focus on tax implications. Understanding accruals’ role in matching revenues with expenses ensures accurate financial reporting and informs tax planning strategies for the coming week.",
+    "ideas": [
+     {
+      "label": "Accruals Timing",
+      "text": "Accruals record revenues when earned, not when cash is received, aligning financial statements with economic reality."
+     },
+     {
+      "label": "Revenue Recognition",
+      "text": "Revenue is recognised when performance obligations are met, impacting both profit calculations and tax liabilities."
+     },
+     {
+      "label": "Tax Implications",
+      "text": "Accrual adjustments may defer tax payments, creating short-term cash flow benefits but requiring future liability management."
+     }
+    ],
+    "example": {
+     "title": "Illustrative Accrual Impact",
+     "rows": [
+      {
+       "label": "Revenue recognised",
+       "value": "£150,000"
+      },
+      {
+       "label": "Accruals adjustment",
+       "value": "-£30,000"
+      },
+      {
+       "label": "Reported net income",
+       "value": "£120,000"
+      }
+     ],
+     "takeaway": "This example shows how accruals reduce reported income, potentially lowering current tax but requiring future adjustments."
+    },
+    "flow": [
+     {
+      "step": "Review accruals impact",
+      "note": "Analyse Around Noon Ltd’s FY2024 figures for revenue timing."
+     },
+     {
+      "step": "Compare with Financial Intelligence",
+      "note": "Align findings with concepts from the book’s Chapter 6 on accrual accounting."
+     },
+     {
+      "step": "Forecast tax implications",
+      "note": "Estimate how accrual adjustments affect next week’s tax planning scenarios."
+     }
+    ],
+    "do_today": "Reconcile weekly learnings on accruals and revenue recognition, producing a 1-page summary linking concepts to practical examples",
+    "handoff": "Tomorrow’s session will explore how accrual adjustments influence tax liability calculations and cash flow projections.",
+    "summary": "Understanding accruals’ role in financial reporting ensures accurate tax planning and informed business decisions."
+   }
+  ]
+ },
+ "visual": {
+  "label": "Week 2 — Colour, type, grids · 2–8 Nov",
+  "outline": [
+   {
+    "title": "Colour Palettes",
+    "prompt": "Save a visual with a 5-colour palette; note if it's monochrome, analogous, or complementary.",
+    "why": "Trains palette types and semantic colour use."
+   },
+   {
+    "title": "Accessible Contrast",
+    "prompt": "Find a visual with high text contrast; check if it meets WCAG 4.5:1.",
+    "why": "Practices colour-blind-safe palettes and contrast standards."
+   },
+   {
+    "title": "Type Scales",
+    "prompt": "Save a design with a modular type scale; note line length and hierarchy.",
+    "why": "Reinforces line length and weight-before-size principles."
+   },
+   {
+    "title": "Grid Layouts",
+    "prompt": "Identify a layout using column grids or bento; note spacing increments.",
+    "why": "Applies grid systems and spacing scales (4/8px)."
+   },
+   {
+    "title": "Semantic Accent",
+    "prompt": "Save a visual using one accent colour for emphasis; note its placement.",
+    "why": "Strengthens use of accent colour for 'look here' cues."
+   },
+   {
+    "title": "Review & Critique",
+    "prompt": "Review swipe-file entries; check alignment with Week 2 principles.",
+    "why": "Consolidates colour, type, and grid understanding."
+   },
+   {
+    "title": "Build with Spine",
+    "prompt": "Create a one-page HTML artifact using a stated type scale and 5-colour palette; self-critique against the brief.",
+    "why": "Practices the full spine process from brief to critique."
+   }
+  ],
+  "sunday": {
+   "headline": "Build a one-page HTML test with defined type scale and 5-colour palette",
+   "one_thing": "Use HSL, type scales, and grids to replace default choices with deliberate design decisions",
+   "narration": "Yesterday’s focus on colour, type, and grids leads to today’s build. Apply HSL palettes, modular type scales, and column grids to create a one-page HTML artifact. Check contrast ratios and refine layouts using the spine’s critique stage. Deliverables include the test page, colour/type notes, and completed critiques.",
+   "ideas": [
+    {
+     "label": "HSL thinking",
+     "text": "Use HSL to define 5-colour palettes with one semantic accent and greys as base."
+    },
+    {
+     "label": "Modular type scale",
+     "text": "Set a base font size (e.g., 16px) and calculate increments (e.g., 1.25x) for consistent hierarchy."
+    },
+    {
+     "label": "Column grids",
+     "text": "Use 4/8px spacing scales and bento layouts to align content with F/Z reading patterns."
+    }
+   ],
+   "example": {
+    "title": "Sample type scale and palette",
+    "rows": [
+     {
+      "label": "Base font size",
+      "value": "16px"
+     },
+     {
+      "label": "Line height",
+      "value": "1.5"
+     },
+     {
+      "label": "Line length",
+      "value": "60 characters"
+     },
+     {
+      "label": "Palette (HSL)",
+      "value": "HSL(200, 30%, 80%), HSL(200, 20%, 60%), HSL(200, 10%, 40%), HSL(200, 5%, 20%), HSL(200, 3%, 10%)"
+     }
+    ],
+    "takeaway": "Use this structure to ensure readability and accessibility in the HTML test."
+   },
+   "flow": [
+    {
+     "step": "Define brief",
+     "note": "Set audience, takeaway, and format constraints for the test page."
+    },
+    {
+     "step": "Choose palette",
+     "note": "Select 5 HSL colours with WCAG AA contrast (4.5:1) for text and background."
+    },
+    {
+     "step": "Build HTML",
+     "note": "Apply type scale and column grids using a 4/8px spacing scale."
+    },
+    {
+     "step": "Check contrast",
+     "note": "Use a contrast checker to validate text and background colour pairs."
+    },
+    {
+     "step": "Refine layout",
+     "note": "Adjust alignment and spacing to follow F/Z reading patterns."
+    }
+   ],
+   "do_today": "Build a one-page HTML artifact with Claude using a stated type scale and 5-colour palette; check contrast with a checker. Deliver: colour/type/grid note, 7 critiques, one-page test.",
+   "handoff": "Tomorrow’s focus shifts to refining the test page using feedback from today’s critiques.",
+   "summary": "Today’s session applied colour, type, and grid principles to build a test page, checked contrast, and completed critiques."
+  }
+ }
+}
