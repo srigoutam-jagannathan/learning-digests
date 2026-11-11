@@ -1,0 +1,544 @@
+{
+ "id": "2026-W43",
+ "monday": "2026-10-19",
+ "model": "qwen3:14b",
+ "built": "2026-11-11T21:11:09",
+ "finance": {
+  "label": "Syllabus weeks 1–2: Three statements; P&L mechanics",
+  "outline": [
+   {
+    "title": "Three Statements Overview",
+    "focus": "Introduce balance sheet, income statement, and cash flow statement purposes and structure using Financial Intelligence for Entrepreneurs (pages 1-20). Lab company: Mash Direct Ltd (FY2025)."
+   },
+   {
+    "title": "P&L Mechanics Basics",
+    "focus": "Explain revenue recognition, expense categorisation, and net profit calculation using Financial Intelligence for Entrepreneurs (pages 21-40). Lab company: Mash Direct Ltd (FY2025)."
+   },
+   {
+    "title": "Statements Interrelation",
+    "focus": "Analyse how income statement affects balance sheet and cash flow using Financial Intelligence for Entrepreneurs (pages 41-60). Lab company: Around Noon Ltd (FY2024)."
+   },
+   {
+    "title": "P&L Deep Dive",
+    "focus": "Apply P&L mechanics to lab companies, verifying if Hannan Meats Ltd (FY2025) includes P&L or substituting if not. Reading: Financial Intelligence for Entrepreneurs (pages 61-80)."
+   },
+   {
+    "title": "Build 1: Statement Analysis",
+    "focus": "Produce comparative summary of three lab companies' financial statements using concepts from week 1. Output: Analysis file (illustrative 15-page document)."
+   },
+   {
+    "title": "Build 2: P&L Application",
+    "focus": "Create detailed P&L breakdown for each lab company, identifying key trends and anomalies. Output: 20-page analysis file (illustrative figures)."
+   },
+   {
+    "title": "Week Reconciliation",
+    "focus": "Review build outputs, identify learning gaps, and preview week 2 topics (cash flow statement mechanics). Time: 45 minutes."
+   }
+  ],
+  "cards": [
+   {
+    "headline": "Three financial statements reveal a company's health",
+    "one_thing": "Each financial statement shows a distinct aspect: position, performance, and cash movement",
+    "narration": "This is the first session of the week. Today introduces three core financial statements: balance sheet (position), income statement (performance), and cash flow statement (cash movement). Using Financial Intelligence for Entrepreneurs (pages 1-20), Mash Direct Ltd's FY2025 accounts will illustrate how these statements interrelate. The balance sheet shows assets, liabilities, and equity; the income statement lists revenues and expenses; the cash flow statement tracks operating, investing, and financing activities.",
+    "ideas": [
+     {
+      "label": "Purpose",
+      "text": "Balance sheet shows assets, liabilities, equity"
+     },
+     {
+      "label": "Structure",
+      "text": "Income statement lists revenues, expenses"
+     },
+     {
+      "label": "Link",
+      "text": "Cash flow connects profit to actual cash"
+     }
+    ],
+    "example": {
+     "title": "Illustrative figures for Mash Direct Ltd FY2025",
+     "rows": [
+      {
+       "label": "Revenue",
+       "value": "£150,000"
+      },
+      {
+       "label": "Expenses",
+       "value": "£100,000"
+      },
+      {
+       "label": "Net Income",
+       "value": "£50,000"
+      },
+      {
+       "label": "Assets",
+       "value": "£300,000"
+      },
+      {
+       "label": "Liabilities",
+       "value": "£120,000"
+      },
+      {
+       "label": "Equity",
+       "value": "£180,000"
+      }
+     ],
+     "takeaway": "These figures demonstrate how income affects equity and asset valuation."
+    },
+    "flow": [
+     {
+      "step": "Read book pages 1-20",
+      "note": "Understand core concepts"
+     },
+     {
+      "step": "Review Mash Direct FY2025 accounts",
+      "note": "Identify statement components"
+     },
+     {
+      "step": "Compare statements",
+      "note": "Note interdependencies"
+     },
+     {
+      "step": "Identify key figures",
+      "note": "Highlight revenue, expenses, cash flows"
+     },
+     {
+      "step": "Summarize findings",
+      "note": "Prepare for tomorrow's P&L analysis"
+     }
+    ],
+    "do_today": "Create a notes document outlining the three statements' purposes, structures, and Mash Direct Ltd's FY2025 figures",
+    "handoff": "Tomorrow's session will focus on income statement mechanics, building on today's overview.",
+    "summary": "Today's session established the three financial statements' roles, using Mash Direct Ltd's FY2025 data to illustrate their structure and interrelationships."
+   },
+   {
+    "headline": "Mash Direct Ltd's P&L Mechanics: Revenue, Expenses, Profit",
+    "one_thing": "Revenue recognition, expense categorisation, and net profit calculation form the core of the income statement.",
+    "narration": "Yesterday established the three financial statements' roles. Today, using Mash Direct Ltd's FY2025 data, we focus on the income statement. Revenue is recognised when earned, not received. Expenses are split into operating (e.g., salaries) and non-operating (e.g., interest). Net profit is total revenue minus all expenses. This builds on yesterday's understanding of how statements interrelate.",
+    "ideas": [
+     {
+      "label": "Revenue Recognition",
+      "text": "Recognise revenue when earned, not received."
+     },
+     {
+      "label": "Expense Categorisation",
+      "text": "Classify expenses as operating (e.g., salaries) or non-operating (e.g., interest)."
+     },
+     {
+      "label": "Net Profit Calculation",
+      "text": "Subtract total expenses from total revenue to determine net profit."
+     }
+    ],
+    "example": {
+     "title": "Illustrative P&L for Mash Direct Ltd",
+     "rows": [
+      {
+       "label": "Revenue",
+       "value": "£200,000"
+      },
+      {
+       "label": "COGS",
+       "value": "£80,000"
+      },
+      {
+       "label": "Gross Profit",
+       "value": "£120,000"
+      },
+      {
+       "label": "Operating Expenses",
+       "value": "£50,000"
+      },
+      {
+       "label": "Operating Profit",
+       "value": "£70,000"
+      },
+      {
+       "label": "Interest Expense",
+       "value": "£10,000"
+      }
+     ],
+     "takeaway": "Net profit (£60,000) reflects all expenses, showing true profitability."
+    },
+    "flow": [
+     {
+      "step": "Identify revenue streams",
+      "note": "Use FY2025 data from Mash Direct Ltd."
+     },
+     {
+      "step": "Categorise expenses",
+      "note": "Separate operating and non-operating costs."
+     },
+     {
+      "step": "Calculate gross profit",
+      "note": "Revenue minus COGS (£120,000)."
+     },
+     {
+      "step": "Deduct operating expenses",
+      "note": "£50,000 reduces gross profit to £70,000."
+     },
+     {
+      "step": "Subtract non-operating expenses",
+      "note": "£10,000 interest lowers profit to £60,000."
+     }
+    ],
+    "do_today": "Explain revenue recognition, expense categorisation, and net profit calculation using *Financial Intelligence for Entrepreneurs* (pages 21-40) and Mash Direct Ltd's FY2025 data. Produce a summary document.",
+    "handoff": "Tomorrow, we'll explore how the P&L interacts with the balance sheet and cash flow statement.",
+    "summary": "Today's session focused on P&L mechanics basics; tomorrow will examine the interrelation between financial statements."
+   },
+   {
+    "headline": "Income Statement Drives Balance Sheet and Cash Flow Changes",
+    "one_thing": "Net income increases retained earnings (balance sheet) and operating cash flow (cash flow statement).",
+    "narration": "Yesterday covered P&L basics. Today, focus on how income statement items directly impact balance sheet equity and cash flow. Using Around Noon Ltd's FY2024 data from pages 41-60 of *Financial Intelligence for Entrepreneurs*, examine how revenues, expenses, and depreciation flow between statements. For example, net income reduces cash flow but increases retained earnings, while depreciation lowers cash flow without affecting profit.",
+    "ideas": [
+     {
+      "label": "Retained Earnings",
+      "text": "Net income increases retained earnings on the balance sheet."
+     },
+     {
+      "label": "Depreciation",
+      "text": "Depreciation reduces cash flow but not net income."
+     },
+     {
+      "label": "Operating Expenses",
+      "text": "Higher operating expenses lower both net income and cash flow."
+     }
+    ],
+    "example": {
+     "title": "Around Noon Ltd FY2024 Illustration",
+     "rows": [
+      {
+       "label": "Net Income",
+       "value": "£50,000"
+      },
+      {
+       "label": "Retained Earnings (Balance Sheet)",
+       "value": "↑ £50,000"
+      },
+      {
+       "label": "Depreciation",
+       "value": "£10,000"
+      },
+      {
+       "label": "Operating Cash Flow",
+       "value": "↓ £10,000"
+      },
+      {
+       "label": "Operating Expenses",
+       "value": "£20,000"
+      },
+      {
+       "label": "Net Income",
+       "value": "↓ £20,000"
+      }
+     ],
+     "takeaway": "Net income flows to retained earnings and operating cash flow, while depreciation and expenses reduce cash flow."
+    },
+    "flow": [
+     {
+      "step": "Analyze income statement",
+      "note": "Identify net income and expenses."
+     },
+     {
+      "step": "Update balance sheet",
+      "note": "Add net income to retained earnings."
+     },
+     {
+      "step": "Adjust cash flow",
+      "note": "Include depreciation and operating expenses."
+     },
+     {
+      "step": "Check consistency",
+      "note": "Ensure all statements align."
+     }
+    ],
+    "do_today": "Analyze Around Noon Ltd's FY2024 statements (pages 41-60) to map income statement items to balance sheet and cash flow changes. Produce a summary table showing these interrelations.",
+    "handoff": "Tomorrow's P&L Deep Dive will explore how specific line items (e.g., COGS, salaries) affect all three statements.",
+    "summary": "Today's analysis shows how income statement results directly shape balance sheet equity and cash flow figures, providing a foundation for tomorrow's detailed P&L examination."
+   },
+   {
+    "headline": "P&L Mechanics Shape Lab Company Analysis",
+    "one_thing": "Income statement results directly affect balance sheet equity and cash flow figures.",
+    "narration": "Yesterday’s analysis showed how income statement results influence balance sheet equity and cash flow. Today’s session applies P&L mechanics to lab companies, focusing on whether Hannan Meats Ltd (FY2025) includes a P&L. If not, substitute with a non-food services/retail company filing full accounts. This builds understanding of how financial statements interrelate.",
+    "ideas": [
+     {
+      "label": "P&L Impact",
+      "text": "Income statement results directly affect balance sheet equity and cash flow."
+     },
+     {
+      "label": "Lab Company Regime",
+      "text": "Hannan Meats Ltd uses small-company regime with 'total exemption full' filings."
+     },
+     {
+      "label": "Substitution Rule",
+      "text": "Replace Hannan Meats Ltd with a non-food services/retail company if P&L is missing."
+     }
+    ],
+    "example": {
+     "title": "Illustrative P&L Impact",
+     "rows": [
+      {
+       "label": "Revenue",
+       "value": "£100,000"
+      },
+      {
+       "label": "Expenses",
+       "value": "£60,000"
+      },
+      {
+       "label": "Net Income",
+       "value": "£40,000"
+      },
+      {
+       "label": "Equity Increase",
+       "value": "£40,000"
+      },
+      {
+       "label": "Cash Flow Increase",
+       "value": "£40,000"
+      }
+     ],
+     "takeaway": "Net income increases both equity and cash flow by the same amount."
+    },
+    "flow": [
+     {
+      "step": "Check Hannan Meats Ltd",
+      "note": "Verify FY2025 accounts for P&L inclusion."
+     },
+     {
+      "step": "Substitute if needed",
+      "note": "Use non-food services/retail company if P&L missing."
+     },
+     {
+      "step": "Apply P&L mechanics",
+      "note": "Analyze revenue, expenses, and net income."
+     },
+     {
+      "step": "Link to balance sheet",
+      "note": "Show how net income affects equity."
+     },
+     {
+      "step": "Link to cash flow",
+      "note": "Demonstrate cash flow impact."
+     }
+    ],
+    "do_today": "Apply P&L mechanics to lab companies. Verify Hannan Meats Ltd (FY2025) P&L inclusion. Produce analysis with file 'P&L_Analysis_Lab_Companies_Thu'",
+    "handoff": "Tomorrow’s Build 1: Statement Analysis will use today’s P&L findings to examine full financial statements.",
+    "summary": "P&L directly affects balance sheet equity and cash flow, providing context for tomorrow’s statement analysis."
+   },
+   {
+    "headline": "Comparative analysis of three lab companies' financials using week 1 concepts",
+    "one_thing": "Link P&L impacts to balance sheet equity and cash flow as foundation for statement analysis",
+    "narration": "Yesterday’s P&L discussion shows how profit/loss directly affects balance sheet equity and cash flow. Today’s task compares three lab companies’ financial statements using week 1’s three-statement framework. Focus on revenue, expenses, net income, and cash flow trends across Mash Direct Ltd (FY2025), Around Noon Ltd (FY2024), and Hannan Meats Ltd (small-company regime). Output: 15-page analysis file.",
+    "ideas": [
+     {
+      "label": "Three statements",
+      "text": "Balance sheet, P&L, and cash flow statement interconnect to show company health."
+     },
+     {
+      "label": "P&L mechanics",
+      "text": "Revenue minus expenses equals net income, which feeds into equity and cash flow."
+     },
+     {
+      "label": "Comparative analysis",
+      "text": "Side-by-side metrics reveal operational efficiency and financial stability differences."
+     }
+    ],
+    "example": {
+     "title": "Illustrative P&L comparison",
+     "rows": [
+      {
+       "label": "Mash Direct Ltd FY2025 Revenue",
+       "value": "£1.2M"
+      },
+      {
+       "label": "Around Noon Ltd FY2024 Revenue",
+       "value": "£950k"
+      },
+      {
+       "label": "Hannan Meats Ltd FY2024 Revenue",
+       "value": "£780k"
+      },
+      {
+       "label": "Mash Direct Ltd Operating Expenses",
+       "value": "£450k"
+      },
+      {
+       "label": "Around Noon Ltd Operating Expenses",
+       "value": "£320k"
+      },
+      {
+       "label": "Hannan Meats Ltd Operating Expenses",
+       "value": "£280k"
+      }
+     ],
+     "takeaway": "Higher revenue with proportionally higher expenses suggests varying cost structures between companies."
+    },
+    "flow": [
+     {
+      "step": "Select companies",
+      "note": "Use Mash Direct, Around Noon, and Hannan Meats (if P&L available)."
+     },
+     {
+      "step": "Extract financial data",
+      "note": "Pull revenue, expenses, net income, and cash flow from annual reports."
+     },
+     {
+      "step": "Apply week 1 concepts",
+      "note": "Map P&L figures to balance sheet equity and cash flow changes."
+     },
+     {
+      "step": "Compare metrics",
+      "note": "Identify trends in profitability and liquidity across firms."
+     },
+     {
+      "step": "Document findings",
+      "note": "Compile into 15-page analysis with visual comparisons."
+     }
+    ],
+    "do_today": "Produce 15-page comparative analysis file of three lab companies’ financial statements using week 1 concepts",
+    "handoff": "Tomorrow’s P&L Application will refine these comparisons into actionable insights",
+    "summary": "Today’s analysis links P&L performance to balance sheet and cash flow, setting up tomorrow’s detailed P&L application."
+   },
+   {
+    "headline": "P&L breakdown reveals key trends and anomalies in lab companies",
+    "one_thing": "Link P&L data to balance sheet and cash flow to identify financial patterns.",
+    "narration": "Yesterday’s session connected P&L performance to balance sheet and cash flow. Today, focus on creating detailed P&L breakdowns for three lab companies, using illustrative figures to highlight trends and anomalies. This builds on week 1’s three-statement analysis and P&L mechanics.",
+    "ideas": [
+     {
+      "label": "Trend",
+      "text": "Revenue growth of £150k for Mash Direct Ltd indicates strong market demand."
+     },
+     {
+      "label": "Anomaly",
+      "text": "Hannan Meats Ltd shows a 20% drop in gross margin compared to prior periods."
+     },
+     {
+      "label": "Exemption",
+      "text": "Check if Hannan Meats’ small-company regime excludes P&L data; use a non-food company if needed."
+     }
+    ],
+    "example": {
+     "title": "Illustrative P&L figures",
+     "rows": [
+      {
+       "label": "Mash Direct Ltd (FY2025) Revenue",
+       "value": "£150,000"
+      },
+      {
+       "label": "COGS",
+       "value": "£90,000"
+      },
+      {
+       "label": "Gross Profit",
+       "value": "£60,000"
+      },
+      {
+       "label": "Around Noon Ltd (FY2024) Operating Expenses",
+       "value": "£45,000"
+      },
+      {
+       "label": "Net Profit",
+       "value": "£15,000"
+      }
+     ],
+     "takeaway": "Comparing these figures highlights differences in cost structures and profitability across companies."
+    },
+    "flow": [
+     {
+      "step": "Link P&L to balance sheet",
+      "note": "Use yesterday’s analysis as a reference."
+     },
+     {
+      "step": "Analyze revenue and costs",
+      "note": "Identify trends like revenue growth or margin compression."
+     },
+     {
+      "step": "Flag anomalies",
+      "note": "Highlight deviations from expected performance."
+     },
+     {
+      "step": "Cross-check with cash flow",
+      "note": "Ensure consistency in financial statements."
+     },
+     {
+      "step": "Compile 20-page analysis",
+      "note": "Include illustrative figures and explanations."
+     }
+    ],
+    "do_today": "Create a 20-page analysis file detailing P&L breakdowns for Mash Direct, Around Noon, and Hannan Meats, identifying trends and anomalies using illustrative figures.",
+    "handoff": "Tomorrow’s reconciliation will validate today’s P&L findings against actual financial records.",
+    "summary": "Today’s P&L analysis sets up tomorrow’s reconciliation by linking income statements to balance sheets and cash flows."
+   },
+   {
+    "headline": "Reconcile Week 1, Preview Cash Flow Mechanics",
+    "one_thing": "Link P&L to balance sheets and cash flows to identify gaps and preview cash flow mechanics.",
+    "narration": "Yesterday’s P&L analysis connects to today’s reconciliation by showing how income statements feed into balance sheets and cash flows. Review week 1 outputs to spot gaps in understanding three statements. Preview week 2’s cash flow mechanics using lab companies and *Financial Intelligence for Entrepreneurs*. Focus on linking income statement figures to cash flow adjustments.",
+    "ideas": [
+     {
+      "label": "Three Statements Link",
+      "text": "P&L figures directly influence balance sheet equity and cash flow operating activities."
+     },
+     {
+      "label": "Learning Gaps",
+      "text": "Unresolved week 1 topics may hinder cash flow statement analysis in week 2."
+     },
+     {
+      "label": "Cash Flow Preview",
+      "text": "Week 2 will explore how P&L items like depreciation affect cash flow calculations."
+     }
+    ],
+    "example": {
+     "title": "Illustrative P&L Linkage",
+     "rows": [
+      {
+       "label": "Revenue",
+       "value": "£150k"
+      },
+      {
+       "label": "Operating Expenses",
+       "value": "£80k"
+      },
+      {
+       "label": "Net Income",
+       "value": "£70k"
+      },
+      {
+       "label": "Depreciation",
+       "value": "£15k"
+      }
+     ],
+     "takeaway": "Net income (£70k) drives cash flow from operations, adjusted by non-cash items like depreciation (£15k)."
+    },
+    "flow": [
+     {
+      "step": "Review outputs",
+      "note": "Check week 1 build for accuracy."
+     },
+     {
+      "step": "Identify gaps",
+      "note": "Note unresolved three-statement links."
+     },
+     {
+      "step": "Link P&L to balance sheets",
+      "note": "Show how net income affects equity."
+     },
+     {
+      "step": "Preview cash flow topics",
+      "note": "Outline week 2’s cash flow mechanics."
+     },
+     {
+      "step": "Prepare for tomorrow",
+      "note": "Ensure P&L-balance sheet connections are clear."
+     }
+    ],
+    "do_today": "Reconcile week 1 outputs, identify learning gaps, and outline week 2’s cash flow statement mechanics in a 'Week 1 Reconciliation Report' document.",
+    "handoff": "Tomorrow’s session will build on today’s reconciliation by exploring cash flow statement mechanics in depth.",
+    "summary": "Reconcile week 1 outputs, identify learning gaps, and outline cash flow mechanics for week 2."
+   }
+  ]
+ },
+ "visual": {
+  "label": null,
+  "outline": null,
+  "sunday": null
+ }
+}
