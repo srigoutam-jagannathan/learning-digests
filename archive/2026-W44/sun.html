@@ -1,0 +1,105 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sun 1 Nov - Review weekly builds and preview balance sheet topics</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&display=swap" rel="stylesheet"><style>
+:root{color-scheme:light dark;
+ --bg:#EEF1F4;--surface:#FFFFFF;--ink:#16202A;--muted:#5B6875;--line:#D5DCE3;
+ --fin:#0E6B5C;--vis:#6B3FA0;--mark:#F2C230;--mark-ink:#16202A;
+ --display:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",sans-serif;
+ --text:"Source Serif 4",Georgia,"Times New Roman",serif}
+@media (prefers-color-scheme:dark){:root{
+ --bg:#10161C;--surface:#18212A;--ink:#E8EDF2;--muted:#93A1AF;--line:#2A3642;
+ --fin:#5FC9B5;--vis:#B79AE6}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--text);
+ font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+main{max-width:860px;margin:0 auto;padding:24px 18px 64px}
+nav{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-bottom:28px;
+ font-family:var(--display);font-size:14px}
+nav a{padding:6px 12px;border-radius:999px;text-decoration:none;color:var(--muted);
+ border:1px solid var(--line)}
+nav a:hover{color:var(--ink);border-color:var(--muted)}
+nav a:focus-visible{outline:2px solid var(--fin);outline-offset:2px}
+nav a[aria-current]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+nav .home{margin-right:auto;border:0;padding-left:0;font-weight:600;color:var(--ink)}
+.date{font-family:var(--display);color:var(--muted);font-size:15px;margin:0 0 6px}
+section{margin-top:40px}
+.track{font-family:var(--display);font-size:14px;font-weight:600;margin:0 0 10px}
+.fin .track{color:var(--fin)}.vis .track{color:var(--vis)}
+h1,h2{font-family:var(--display);font-weight:700;letter-spacing:-.02em;
+ line-height:1.08;margin:0 0 18px}
+h1{font-size:clamp(34px,7vw,56px)}h2{font-size:clamp(28px,5.5vw,42px)}
+.one{font-size:clamp(20px,3.4vw,25px);line-height:1.45;margin:0 0 24px;max-width:30em}
+.one span{background:linear-gradient(transparent 12%,var(--mark) 12%,var(--mark) 92%,transparent 92%);
+ color:var(--mark-ink);padding:0 .15em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.narr{max-width:38em;margin:0 0 28px}
+.ideas{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin:0 0 28px;
+ border-top:2px solid var(--ink)}
+.ideas div{padding:14px 16px 4px 0}
+.ideas div+div{padding-left:16px;border-left:1px solid var(--line)}
+.ideas b{display:block;font-family:var(--display);font-size:17px;margin-bottom:4px}
+.ideas p{margin:0;font-size:15.5px;line-height:1.5;color:var(--muted)}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:0 0 24px}
+.box{background:var(--surface);border-radius:14px;padding:20px 22px}
+.box h3{font-family:var(--display);font-size:16px;margin:0 0 12px}
+table{width:100%;border-collapse:collapse;font-family:var(--display);font-size:15.5px}
+td{padding:7px 0;border-bottom:1px solid var(--line);vertical-align:top}
+td:last-child{text-align:right;font-variant-numeric:tabular-nums;font-weight:600;
+ padding-left:12px;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+.take{font-size:15px;color:var(--muted);margin:12px 0 0}
+ol.flow{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.flow li{counter-increment:s;position:relative;padding:0 0 14px 38px}
+ol.flow li::before{content:counter(s);position:absolute;left:0;top:1px;width:25px;height:25px;
+ border-radius:50%;display:grid;place-items:center;font-family:var(--display);
+ font-size:13px;font-weight:700;color:var(--surface)}
+.fin ol.flow li::before{background:var(--fin)}.vis ol.flow li::before{background:var(--vis)}
+ol.flow li:not(:last-child)::after{content:"";position:absolute;left:12px;top:28px;
+ bottom:2px;width:1px;background:var(--line)}
+ol.flow b{font-family:var(--display);font-size:15.5px;display:block}
+ol.flow span{font-size:14.5px;color:var(--muted);line-height:1.45;display:block}
+.do{border-left:4px solid;padding:4px 0 4px 16px;margin:0 0 18px;max-width:38em}
+.fin .do{border-color:var(--fin)}.vis .do{border-color:var(--vis)}
+.do b{font-family:var(--display);font-size:15px;display:block}
+.hand{color:var(--muted);font-style:italic;max-width:38em;margin:0}
+.mini{background:var(--surface);border-radius:14px;padding:20px 22px}
+.mini h2{font-size:24px;margin-bottom:8px}
+.mini p{margin:0 0 6px;max-width:36em}.mini .why{color:var(--muted);font-size:15px}
+.week{list-style:none;padding:0;margin:24px 0 0;border-top:2px solid var(--ink)}
+.week li{border-bottom:1px solid var(--line)}
+.week a{display:grid;grid-template-columns:120px 1fr;gap:4px 16px;padding:14px 0;
+ text-decoration:none;color:inherit}
+.week a:hover .t{text-decoration:underline}
+.week .d{font-family:var(--display);color:var(--muted);font-size:15px}
+.week .t{font-family:var(--display);font-weight:600;font-size:18px;line-height:1.3}
+.week .v{grid-column:2;color:var(--muted);font-size:15px}
+@media (max-width:640px){.ideas,.pair{grid-template-columns:1fr}
+ .ideas div+div{padding-left:0;border-left:0;border-top:1px solid var(--line)}
+ .week a{grid-template-columns:1fr}.week .v{grid-column:1}}
+@media print{nav{display:none}body{background:#fff}}
+</style></head><body><main><nav><a class="home" href="../../index.html">All weeks</a><a href="index.html">Week</a><a href="mon.html">Mon</a><a href="tue.html">Tue</a><a href="wed.html">Wed</a><a href="thu.html">Thu</a><a href="fri.html">Fri</a><a href="sat.html">Sat</a><a href="sun.html" aria-current="page">Sun</a></nav><p class="date">Sunday 1 November 2026</p>
+<section class="fin">
+<p class="track">Business and finance · Syllabus weeks 3–4: Balance sheet; cash flow statement</p>
+<h1>Review weekly builds and preview balance sheet topics</h1>
+<p class="one"><span>Compare weekly builds to readings, check errors, and preview balance sheet topics for next week</span></p>
+<p class="narr">Yesterday’s cash flow statements showed lab companies’ liquidity. Today, review this week’s builds against source readings for accuracy. Check for discrepancies in figures from Mash Direct Ltd (FY2025) and Around Noon Ltd (FY2024). Preview next week’s balance sheet topic, which will cover asset-liability structures. This session links to tomorrow’s deep dive into lab company financials.</p>
+<div class="ideas"><div><b>Balance sheet structure</b><p>Balance sheets show a company’s assets, liabilities, and equity at a specific date.</p></div><div><b>Cash flow analysis</b><p>Cash flow statements reveal liquidity trends critical for lab companies’ operations.</p></div><div><b>Lab company liquidity</b><p>Reviewing Mash Direct Ltd’s FY2025 accounts highlights cash flow patterns.</p></div></div>
+<div class="pair">
+ <div class="box"><h3>Balance sheet example</h3><table><tr><td>Assets</td><td>£150,000</td></tr><tr><td>Liabilities</td><td>£75,000</td></tr><tr><td>Equity</td><td>£75,000</td></tr></table>
+  <p class="take">Assets equal liabilities plus equity in a balanced sheet.</p></div>
+ <div class="box"><h3>How it runs</h3><ol class="flow"><li><b>Reconcile week</b><span>Check builds against source readings.</span></li><li><b>Identify errors</b><span>Compare figures from Mash Direct Ltd and Around Noon Ltd.</span></li><li><b>Preview balance sheet</b><span>Outline next week’s topic on asset-liability structures.</span></li><li><b>Review cash flow</b><span>Link today’s work to tomorrow’s lab company analysis.</span></li><li><b>Plan next steps</b><span>Prepare for balance sheet exercises using FY2025 data.</span></li></ol></div>
+</div>
+<div class="do"><b>Today's session</b>Reconcile this week’s builds, check for errors, and produce a summary file named &#x27;Week2_Review_Summary&#x27;</div>
+<p class="hand">Tomorrow’s session will start with Mash Direct Ltd’s FY2025 balance sheet analysis.</p>
+</section>
+<section class="vis">
+<p class="track">Visual creation · Week 1 — Hierarchy and Gestalt · 26 Oct–1 Nov</p>
+<h2>Apply hierarchy and Gestalt to redesign a slide</h2>
+<p class="one"><span>First fixation is determined by size, contrast, or position—identify it and adjust.</span></p>
+<p class="narr">Yesterday’s session covered hierarchy levers and Gestalt laws. Today’s task applies them: take a dense slide from your work, sanitise it, and redesign it twice—once by hand, once via AI. Critique both versions against the four basics and Gestalt principles. Use the swipe file to log at least three entries, each with a principle example and a critique noting first fixation, groupings, and one competing element.</p>
+<div class="ideas"><div><b>Four basics</b><p>Contrast, repetition, alignment, proximity define visual organisation.</p></div><div><b>Gestalt laws</b><p>Proximity, similarity, closure, continuity, figure/ground, and common region explain grouping.</p></div><div><b>Critique method</b><p>Note first fixation, what’s grouped, and one element fighting for attention.</p></div></div>
+<div class="pair">
+ <div class="box"><h3>Before/after slide</h3><table><tr><td>Before</td><td>Cluttered text, low contrast, 80% density</td></tr><tr><td>After</td><td>Bold heading, 20% whitespace, 3x font size</td></tr></table>
+  <p class="take">Whitespace and size shift focus from dense text to a clear hierarchy.</p></div>
+ <div class="box"><h3>How it runs</h3><ol class="flow"><li><b>Sanitise a slide</b><span>Remove sensitive data for critique.</span></li><li><b>Sketch redesign</b><span>Apply hierarchy levers by hand.</span></li><li><b>AI rebuild</b><span>Use Claude to generate HTML version.</span></li><li><b>Critique both</b><span>Check against four basics and Gestalt laws.</span></li><li><b>Add to swipe file</b><span>Log entry with principle example.</span></li></ol></div>
+</div>
+<div class="do"><b>Today's session</b>Complete swipe file (≥3 entries), principles note with examples, 3 critiques, and before/after slide.</div>
+<p class="hand">Tomorrow’s session will follow the spine: start with brief, references, structure, then generate and refine.</p>
+</section></main></body></html>

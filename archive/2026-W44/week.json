@@ -1,0 +1,581 @@
+{
+ "id": "2026-W44",
+ "monday": "2026-10-26",
+ "model": "qwen3:14b",
+ "built": "2026-11-11T21:25:19",
+ "finance": {
+  "label": "Syllabus weeks 3–4: Balance sheet; cash flow statement",
+  "outline": [
+   {
+    "title": "Balance sheet intro",
+    "focus": "Understand components and structure of balance sheets using reading and lab companies"
+   },
+   {
+    "title": "Cash flow intro",
+    "focus": "Learn three sections of cash flow statements through reading and lab company data"
+   },
+   {
+    "title": "Balance sheet analysis",
+    "focus": "Apply concepts to Mash Direct and Around Noon's FY2024/FY2025 accounts"
+   },
+   {
+    "title": "Cash flow analysis",
+    "focus": "Analyze lab companies' cash flow patterns using full accounts and exemptions"
+   },
+   {
+    "title": "Build balance sheets",
+    "focus": "Create balance sheets for Mash Direct and Around Noon using provided full accounts"
+   },
+   {
+    "title": "Build cash flow statements",
+    "focus": "Prepare cash flow statements for all lab companies including Hannan Meats"
+   },
+   {
+    "title": "Week review",
+    "focus": "Compare builds against readings, check for errors, preview next week's income statement topic"
+   }
+  ],
+  "cards": [
+   {
+    "headline": "Balance sheets show a company's financial position at a point in time",
+    "one_thing": "Balance sheets list assets, liabilities, and equity to show financial position",
+    "narration": "This is the first session of the week. Today's focus is understanding balance sheets through reading and lab company examples. The session builds on foundational accounting concepts from last week. Materials include *Financial Intelligence for Entrepreneurs* and full accounts from three lab companies. The goal is to identify key components and structure of balance sheets, preparing for tomorrow's cash flow statement introduction.",
+    "ideas": [
+     {
+      "label": "Assets",
+      "text": "Resources owned by the company, e.g. cash, inventory, property"
+     },
+     {
+      "label": "Liabilities",
+      "text": "Obligations owed, e.g. loans, accounts payable"
+     },
+     {
+      "label": "Equity",
+      "text": "Owner's stake, calculated as assets minus liabilities"
+     }
+    ],
+    "example": {
+     "title": "Illustrative balance sheet",
+     "rows": [
+      {
+       "label": "Assets",
+       "value": "£500,000"
+      },
+      {
+       "label": "Liabilities",
+       "value": "£300,000"
+      },
+      {
+       "label": "Equity",
+       "value": "£200,000"
+      }
+     ],
+     "takeaway": "Assets equal liabilities plus equity in a balanced sheet"
+    },
+    "flow": [
+     {
+      "step": "Read chapter 3",
+      "note": "Focus on assets/liabilities structure"
+     },
+     {
+      "step": "Review lab companies",
+      "note": "Compare Mash Direct, Around Noon, Hannan Meats accounts"
+     },
+     {
+      "step": "Identify components",
+      "note": "Note differences in small vs full accounts"
+     },
+     {
+      "step": "Complete exercise",
+      "note": "Map example figures to real data"
+     }
+    ],
+    "do_today": "Produce a one-page summary of balance sheet components using reading material and lab company examples. Save as 'BalanceSheetSummary_Mon.pdf'",
+    "handoff": "Tomorrow's session will introduce cash flow statements, building on today's balance sheet understanding.",
+    "summary": "Balance sheets show financial position through assets, liabilities, and equity, linking to tomorrow's cash flow analysis"
+   },
+   {
+    "headline": "Cash flow reveals liquidity through three key sections",
+    "one_thing": "Cash flow statements track operating, investing, and financing activities to show cash movement.",
+    "narration": "Yesterday’s balance sheet showed financial position; today’s cash flow explains how cash moves. Cash flow statements split into three sections: operating (day-to-day), investing (assets), and financing (capital). This helps assess liquidity and solvency.",
+    "ideas": [
+     {
+      "label": "Operating",
+      "text": "Cash from core business activities, e.g., sales and expenses."
+     },
+     {
+      "label": "Investing",
+      "text": "Cash used for buying/selling assets, e.g., property or equipment."
+     },
+     {
+      "label": "Financing",
+      "text": "Cash from loans, equity, or dividends to shareholders."
+     }
+    ],
+    "example": {
+     "title": "Cash flow example",
+     "rows": [
+      {
+       "label": "Operating cash flow",
+       "value": "£50,000"
+      },
+      {
+       "label": "Investing cash flow",
+       "value": "-£20,000"
+      },
+      {
+       "label": "Financing cash flow",
+       "value": "-£30,000"
+      }
+     ],
+     "takeaway": "Net cash flow is £0, showing balance between inflows and outflows."
+    },
+    "flow": [
+     {
+      "step": "Read intro",
+      "note": "Focus on three sections."
+     },
+     {
+      "step": "Analyze lab data",
+      "note": "Use Mash Direct and Around Noon."
+     },
+     {
+      "step": "Compare sections",
+      "note": "Identify trends in each activity."
+     },
+     {
+      "step": "Identify patterns",
+      "note": "Link to business health."
+     },
+     {
+      "step": "Summarize findings",
+      "note": "Prepare for tomorrow’s balance sheet."
+     }
+    ],
+    "do_today": "Read cash flow intro, analyze two lab companies’ statements, produce summary.",
+    "handoff": "Tomorrow’s balance sheet analysis will link cash flow trends to asset/liability changes.",
+    "summary": "Cash flow tracks liquidity via operating, investing, and financing activities, essential for financial health assessment."
+   },
+   {
+    "headline": "Balance sheets reveal company health through asset-liability comparisons",
+    "one_thing": "Apply balance sheet concepts to Mash Direct and Around Noon to assess their financial positions",
+    "narration": "Yesterday’s cash flow analysis focused on liquidity. Today’s balance sheet analysis examines structural health. Using Mash Direct (FY2025) and Around Noon (FY2024) accounts, you’ll compare assets, liabilities, and equity. This helps identify solvency, leverage, and capital structure differences between the two companies.",
+    "ideas": [
+     {
+      "label": "Balance sheet structure",
+      "text": "Assets = liabilities + equity shows a company’s financial position at a point in time"
+     },
+     {
+      "label": "Key ratios",
+      "text": "Current ratio (current assets/liabilities) and debt-to-equity (total liabilities/equity) highlight liquidity and leverage"
+     },
+     {
+      "label": "Interpretation",
+      "text": "Comparing ratios between Mash Direct and Around Noon reveals which company has stronger financial foundations"
+     }
+    ],
+    "example": {
+     "title": "Illustrative balance sheet figures",
+     "rows": [
+      {
+       "label": "Mash Direct Assets",
+       "value": "£500,000"
+      },
+      {
+       "label": "Mash Direct Liabilities",
+       "value": "£300,000"
+      },
+      {
+       "label": "Around Noon Assets",
+       "value": "£800,000"
+      },
+      {
+       "label": "Around Noon Liabilities",
+       "value": "£400,000"
+      }
+     ],
+     "takeaway": "Around Noon has higher equity (£400,000) and lower debt relative to assets than Mash Direct (£200,000)"
+    },
+    "flow": [
+     {
+      "step": "Review balance sheet concepts",
+      "note": "Use *Financial Intelligence for Entrepreneurs* Chapter 4"
+     },
+     {
+      "step": "Analyze Mash Direct FY2025",
+      "note": "Focus on asset composition and liabilities"
+     },
+     {
+      "step": "Analyze Around Noon FY2024",
+      "note": "Compare with Mash Direct’s figures"
+     },
+     {
+      "step": "Calculate key ratios",
+      "note": "Current ratio and debt-to-equity for both companies"
+     },
+     {
+      "step": "Interpret findings",
+      "note": "Identify financial strengths/weaknesses"
+     }
+    ],
+    "do_today": "Complete balance sheet analysis of Mash Direct and Around Noon using their respective accounts. Produce a summary report with key ratios and interpretations",
+    "handoff": "Tomorrow’s cash flow analysis will examine how these companies generate and manage liquidity over time",
+    "summary": "Today’s balance sheet analysis provides structural insight into Mash Direct and Around Noon’s financial positions, which will inform tomorrow’s cash flow statement examination"
+   },
+   {
+    "headline": "Lab companies' cash flow reveals operational liquidity gaps",
+    "one_thing": "Cash flow analysis uses full accounts and exemptions to assess operational liquidity",
+    "narration": "Yesterday’s balance sheet analysis of Mash Direct and Around Noon identified structural financial positions. Today’s cash flow examination builds on this by evaluating their cash generation and usage patterns. Full accounts for FY2025 (Mash Direct) and FY2024 (Around Noon) will be compared against Hannan Meats’ exemption regime. This contrasts full disclosure requirements with small-company exemptions, revealing differences in liquidity management.",
+    "ideas": [
+     {
+      "label": "Full accounts",
+      "text": "Mash Direct and Around Noon’s full accounts show detailed cash inflows/outflows, unlike Hannan Meats’ exemption regime."
+     },
+     {
+      "label": "Exemptions",
+      "text": "Hannan Meats’ exemption may omit P&L details, requiring substitution with a non-food services company’s full accounts."
+     },
+     {
+      "label": "Cash flow patterns",
+      "text": "Comparing lab companies’ cash flow statements highlights differences in operational liquidity and investment needs."
+     }
+    ],
+    "example": {
+     "title": "Illustrative cash flow analysis",
+     "rows": [
+      {
+       "label": "Mash Direct FY2025 operating cash flow",
+       "value": "£200,000"
+      },
+      {
+       "label": "Around Noon FY2024 investing cash flow",
+       "value": "-£50,000"
+      },
+      {
+       "label": "Hannan Meats exemption adjustment",
+       "value": "£0 (exempt)"
+      },
+      {
+       "label": "Total cash flow needed",
+       "value": "£150,000"
+      }
+     ],
+     "takeaway": "Operating cash flow covers 60% of total needs in this example."
+    },
+    "flow": [
+     {
+      "step": "Review balance sheet structure",
+      "note": "Link to yesterday’s analysis of Mash Direct and Around Noon."
+     },
+     {
+      "step": "Identify cash flow sources",
+      "note": "Differentiate between full accounts and exemptions."
+     },
+     {
+      "step": "Apply exemptions",
+      "note": "Adjust Hannan Meats’ data if P&L is missing."
+     },
+     {
+      "step": "Compare patterns",
+      "note": "Contrast lab companies’ liquidity positions."
+     },
+     {
+      "step": "Assess liquidity",
+      "note": "Determine operational sustainability."
+     }
+    ],
+    "do_today": "Analyze cash flow statements for Mash Direct, Around Noon, and Hannan Meats using full accounts and exemptions. Produce a cash flow analysis report.",
+    "handoff": "Today’s cash flow insights will inform tomorrow’s balance sheet construction.",
+    "summary": "Today’s cash flow analysis informs tomorrow’s balance sheet construction."
+   },
+   {
+    "headline": "Balance sheets reveal company financial positions",
+    "one_thing": "Balance sheets list assets, liabilities, and equity at a specific date",
+    "narration": "Yesterday’s cash flow analysis informs today’s balance sheet construction. Using full accounts for Mash Direct and Around Noon, you will categorise assets (e.g. cash, inventory) and liabilities (e.g. loans, payables) to show financial position. This builds on prior cash flow work, ensuring consistency between statements. Focus on FY2025 for Mash Direct and FY2024 for Around Noon.",
+    "ideas": [
+     {
+      "label": "Assets",
+      "text": "Include cash, inventory, and property valued at historical cost."
+     },
+     {
+      "label": "Liabilities",
+      "text": "Cover short-term (e.g. trade payables) and long-term (e.g. mortgages) obligations."
+     },
+     {
+      "label": "Equity",
+      "text": "Calculated as total assets minus total liabilities."
+     }
+    ],
+    "example": {
+     "title": "Mash Direct Ltd balance sheet example",
+     "rows": [
+      {
+       "label": "Cash",
+       "value": "£20,000"
+      },
+      {
+       "label": "Inventory",
+       "value": "£30,000"
+      },
+      {
+       "label": "Loans",
+       "value": "£15,000"
+      },
+      {
+       "label": "Equity",
+       "value": "£35,000"
+      }
+     ],
+     "takeaway": "Total assets (£50,000) equal liabilities (£15,000) plus equity (£35,000)."
+    },
+    "flow": [
+     {
+      "step": "Locate accounts",
+      "note": "Use provided full accounts for FY2025 and FY2024."
+     },
+     {
+      "step": "Categorise items",
+      "note": "Separate assets and liabilities based on nature and timing."
+     },
+     {
+      "step": "Calculate equity",
+      "note": "Subtract total liabilities from total assets."
+     },
+     {
+      "step": "Verify figures",
+      "note": "Cross-check with cash flow statement totals."
+     }
+    ],
+    "do_today": "Build balance sheets for Mash Direct and Around Noon using their full accounts. Produce a file with two separate balance sheets.",
+    "handoff": "Tomorrow’s cash flow statements will link to today’s balance sheet equity figures.",
+    "summary": "Balance sheets for Mash Direct and Around Noon show financial positions using full accounts from FY2025 and FY2024."
+   },
+   {
+    "headline": "Cash flow statements reveal lab companies' liquidity",
+    "one_thing": "Cash flow statements track cash inflows/outflows from operating, investing, and financing activities.",
+    "narration": "Yesterday’s balance sheets for Mash Direct and Around Noon showed financial positions using full accounts. Today, build cash flow statements for all lab companies, including Hannan Meats, to assess liquidity. Use FY2025 and FY2024 data where available, and check Hannan Meats’ files for P&L inclusion.",
+    "ideas": [
+     {
+      "label": "Purpose",
+      "text": "Cash flow statements show liquidity by tracking cash movements."
+     },
+     {
+      "label": "Data sources",
+      "text": "They use balance sheet figures and income statement data."
+     },
+     {
+      "label": "Small companies",
+      "text": "Hannan Meats may have simplified formats under the small-company regime."
+     }
+    ],
+    "example": {
+     "title": "Illustrative cash flow example",
+     "rows": [
+      {
+       "label": "Operating activities",
+       "value": "£50,000 inflow"
+      },
+      {
+       "label": "Investing activities",
+       "value": "£20,000 outflow"
+      },
+      {
+       "label": "Financing activities",
+       "value": "£10,000 outflow"
+      },
+      {
+       "label": "Net cash flow",
+       "value": "£20,000"
+      }
+     ],
+     "takeaway": "Net cash flow indicates overall liquidity changes."
+    },
+    "flow": [
+     {
+      "step": "Gather financial data",
+      "note": "Use FY2025 and FY2024 accounts for accuracy."
+     },
+     {
+      "step": "Categorise cash flows",
+      "note": "Separate operating, investing, and financing activities."
+     },
+     {
+      "step": "Calculate net change",
+      "note": "Sum inflows and outflows for each category."
+     },
+     {
+      "step": "Check consistency",
+      "note": "Ensure figures align with balance sheet changes."
+     },
+     {
+      "step": "Finalise statement",
+      "note": "Present in standard format with clear labels."
+     }
+    ],
+    "do_today": "Build cash flow statements for Mash Direct, Around Noon, and Hannan Meats. Output: file with all lab companies’ statements.",
+    "handoff": "Tomorrow’s week review will consolidate findings from balance sheets and cash flow statements.",
+    "summary": "Today’s cash flow statements provide liquidity insights for lab companies, to be reviewed tomorrow."
+   },
+   {
+    "headline": "Review weekly builds and preview balance sheet topics",
+    "one_thing": "Compare weekly builds to readings, check errors, and preview balance sheet topics for next week",
+    "narration": "Yesterday’s cash flow statements showed lab companies’ liquidity. Today, review this week’s builds against source readings for accuracy. Check for discrepancies in figures from Mash Direct Ltd (FY2025) and Around Noon Ltd (FY2024). Preview next week’s balance sheet topic, which will cover asset-liability structures. This session links to tomorrow’s deep dive into lab company financials.",
+    "ideas": [
+     {
+      "label": "Balance sheet structure",
+      "text": "Balance sheets show a company’s assets, liabilities, and equity at a specific date."
+     },
+     {
+      "label": "Cash flow analysis",
+      "text": "Cash flow statements reveal liquidity trends critical for lab companies’ operations."
+     },
+     {
+      "label": "Lab company liquidity",
+      "text": "Reviewing Mash Direct Ltd’s FY2025 accounts highlights cash flow patterns."
+     }
+    ],
+    "example": {
+     "title": "Balance sheet example",
+     "rows": [
+      {
+       "label": "Assets",
+       "value": "£150,000"
+      },
+      {
+       "label": "Liabilities",
+       "value": "£75,000"
+      },
+      {
+       "label": "Equity",
+       "value": "£75,000"
+      }
+     ],
+     "takeaway": "Assets equal liabilities plus equity in a balanced sheet."
+    },
+    "flow": [
+     {
+      "step": "Reconcile week",
+      "note": "Check builds against source readings."
+     },
+     {
+      "step": "Identify errors",
+      "note": "Compare figures from Mash Direct Ltd and Around Noon Ltd."
+     },
+     {
+      "step": "Preview balance sheet",
+      "note": "Outline next week’s topic on asset-liability structures."
+     },
+     {
+      "step": "Review cash flow",
+      "note": "Link today’s work to tomorrow’s lab company analysis."
+     },
+     {
+      "step": "Plan next steps",
+      "note": "Prepare for balance sheet exercises using FY2025 data."
+     }
+    ],
+    "do_today": "Reconcile this week’s builds, check for errors, and produce a summary file named 'Week2_Review_Summary'",
+    "handoff": "Tomorrow’s session will start with Mash Direct Ltd’s FY2025 balance sheet analysis.",
+    "summary": "Today’s session focused on reconciling builds, checking errors, and preparing for next week’s balance sheet topic."
+   }
+  ]
+ },
+ "visual": {
+  "label": "Week 1 — Hierarchy and Gestalt · 26 Oct–1 Nov",
+  "outline": [
+   {
+    "title": "Visual Hierarchy Levers",
+    "prompt": "Identify the most prominent element in a design using size, colour, or contrast.",
+    "why": "Trains recognition of what draws attention first."
+   },
+   {
+    "title": "Gestalt Proximity/Similarity",
+    "prompt": "Group elements by proximity or similarity; note how they're connected.",
+    "why": "Practices grouping related items visually."
+   },
+   {
+    "title": "Squint Test Practice",
+    "prompt": "Blur your vision; identify what remains clear in a design.",
+    "why": "Strengthens ability to simplify complex visuals."
+   },
+   {
+    "title": "Four Basics Apply",
+    "prompt": "Redesign a layout using contrast, repetition, alignment, and proximity.",
+    "why": "Applies structured composition principles."
+   },
+   {
+    "title": "Figure/Ground Balance",
+    "prompt": "Identify background and foreground elements in a visual.",
+    "why": "Focuses on visual balance and emphasis."
+   },
+   {
+    "title": "Swipe File Review",
+    "prompt": "Review swipe file entries; critique against hierarchy and Gestalt principles.",
+    "why": "Consolidates weekly learning through reflection."
+   },
+   {
+    "title": "Build Session",
+    "prompt": "Use the spine method: brief → structure → generate → critique → refine.",
+    "why": "Applies full design process to a project."
+   }
+  ],
+  "sunday": {
+   "headline": "Apply hierarchy and Gestalt to redesign a slide",
+   "one_thing": "First fixation is determined by size, contrast, or position—identify it and adjust.",
+   "narration": "Yesterday’s session covered hierarchy levers and Gestalt laws. Today’s task applies them: take a dense slide from your work, sanitise it, and redesign it twice—once by hand, once via AI. Critique both versions against the four basics and Gestalt principles. Use the swipe file to log at least three entries, each with a principle example and a critique noting first fixation, groupings, and one competing element.",
+   "ideas": [
+    {
+     "label": "Four basics",
+     "text": "Contrast, repetition, alignment, proximity define visual organisation."
+    },
+    {
+     "label": "Gestalt laws",
+     "text": "Proximity, similarity, closure, continuity, figure/ground, and common region explain grouping."
+    },
+    {
+     "label": "Critique method",
+     "text": "Note first fixation, what’s grouped, and one element fighting for attention."
+    }
+   ],
+   "example": {
+    "title": "Before/after slide",
+    "rows": [
+     {
+      "label": "Before",
+      "value": "Cluttered text, low contrast, 80% density"
+     },
+     {
+      "label": "After",
+      "value": "Bold heading, 20% whitespace, 3x font size"
+     }
+    ],
+    "takeaway": "Whitespace and size shift focus from dense text to a clear hierarchy."
+   },
+   "flow": [
+    {
+     "step": "Sanitise a slide",
+     "note": "Remove sensitive data for critique."
+    },
+    {
+     "step": "Sketch redesign",
+     "note": "Apply hierarchy levers by hand."
+    },
+    {
+     "step": "AI rebuild",
+     "note": "Use Claude to generate HTML version."
+    },
+    {
+     "step": "Critique both",
+     "note": "Check against four basics and Gestalt laws."
+    },
+    {
+     "step": "Add to swipe file",
+     "note": "Log entry with principle example."
+    }
+   ],
+   "do_today": "Complete swipe file (≥3 entries), principles note with examples, 3 critiques, and before/after slide.",
+   "handoff": "Tomorrow’s session will follow the spine: start with brief, references, structure, then generate and refine.",
+   "summary": "Applied hierarchy and Gestalt to a slide, using contrast, whitespace, and size to direct attention."
+  }
+ }
+}
