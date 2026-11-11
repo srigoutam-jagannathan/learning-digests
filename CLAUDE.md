@@ -49,4 +49,4 @@ If neither track has content for a week, the script exits.
 
 **Rendering.** Hand-built HTML strings with inline `CSS`, using Google Fonts. Light and dark mode come from CSS variables, with `--fin` and `--vis` as the track colours. All model text passes through `html.escape` (`E`). Dates use the `%-d` strftime flag, which works on macOS and glibc but not on Windows.
 
-**Git.** `git_sync` runs `add -A`, commits as `Week <id>` if anything changed, and pushes if `GIT_PUSH` is set. It runs only on non-mock builds.
+**Git.** `git_sync` runs `add -A`, commits as `Week <id>` if anything changed, and pushes if `GIT_PUSH` is set. It runs only on non-mock builds. The remote is the public repo `srigoutam-jagannathan/learning-digests` over HTTPS, using `gh` as the credential helper because this Mac has no SSH key for GitHub. GitHub Pages serves the `main` branch root at https://srigoutam-jagannathan.github.io/learning-digests/. The root `index.html` redirects to `current/index.html`, and `.nojekyll` turns off Jekyll processing.
